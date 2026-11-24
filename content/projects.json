@@ -276,6 +276,11 @@
     ],
     "links": [
       {
+        "label": "Live landing",
+        "url": "https://sachenkolabs.tech/ocr-pipelines/",
+        "kind": "live"
+      },
+      {
         "label": "Freelancehunt showcase",
         "url": "https://freelancehunt.com/showcase/work/document-automation-lending-b2b-uslugi/2092929.html",
         "kind": "proof"
