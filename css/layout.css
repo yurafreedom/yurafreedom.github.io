@@ -1,0 +1,1141 @@
+/* V4: mobile-first layout and critical typography. Existing components keep their original art direction. */
+html {scroll-padding-top:82px}
+body {min-width:0;overflow-x:visible}
+.container {width:min(var(--content-width),calc(100% - 2*var(--gutter)));margin-inline:auto}
+:where(main, section, article, .container, .hero__grid, .hero__copy, .chapter-copy, .chapter-grid, .intro-block, .intro-block>div, .section-heading, .section-heading>div, .about-main, .case-layout, .case-hero, .worlds-grid, .world, .project-grid, .featured-grid, .card-body, .featured-bottom>div) {min-width:0}
+:where(h1,h2,h3,.card-title,.world h3,.journey-tile strong) {overflow-wrap:normal;word-break:normal;hyphens:none;white-space:normal;max-width:100%;text-wrap:balance}
+:where(p,li,.case-privacy,.contact-legal) {overflow-wrap:break-word}
+:where(a,button,input) {touch-action:manipulation}
+:where(a,button,input,select,summary):focus-visible {outline:2px solid var(--acid);outline-offset:3px}
+[hidden] {display:none!important}
+.hero {min-height:0}
+.hero__meta {display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding-block:20px;border-bottom:1px solid #ffffff18;color:#b7b3c2;font:12px/1.7 var(--mono);letter-spacing:.04em}
+.hero__meta .live-dot {flex:none;}
+.hero__meta-end {margin-inline-start:auto;color:#85818f}
+.hero__grid {display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(22px,5vw,70px);padding-block:30px 48px;align-items:start}
+.hero__copy {min-width:0;display:flex;flex-direction:column;align-items:flex-start;container-type:inline-size}
+.hero__index {color:var(--acid);font:12px var(--mono);margin-block:0 19px}
+.hero .hero__title {font-family:var(--display);font-weight:800;letter-spacing:-.072em;line-height:.97;margin:0 0 22px;text-transform:uppercase;overflow-wrap:normal;word-break:keep-all;white-space:normal;max-width:100%}
+.hero__title-line {display:block;white-space:nowrap}
+.hero__outline {color:transparent;-webkit-text-stroke:1px #f5f3f7;text-shadow:0 0 22px #ffffff06}
+.hero__period {color:var(--pink);-webkit-text-stroke:0}
+.hero__statement {line-height:1.65;color:#b8b4c0;max-width:540px;margin:0 0 24px}
+.hero__statement strong {color:var(--ink);font-weight:500}
+.hero__actions {display:flex;flex-wrap:wrap;gap:10px}
+.hero__smallprint {width:100%;display:flex;justify-content:space-between;gap:14px;color:#85818f;padding-top:26px;font:12px/1.5 var(--mono)}
+.hero__media {min-width:0;align-self:start;position:relative;overflow:hidden;isolation:isolate;aspect-ratio:1.42;max-height:690px;background:radial-gradient(circle at 56% 42%,#5a235f 0%,#1d1125 38%,#0e0b12 71%);border:1px solid #ffffff19;border-radius:2px}
+.hero__image {position:absolute;inset:0;overflow:hidden}
+.hero__image img {display:block;width:100%;height:100%;object-fit:cover;object-position:50% 43%;}
+.hero__shade {position:absolute;inset:0;background:linear-gradient(90deg,#100b19ac,transparent 38%),linear-gradient(0deg,#090910b0,transparent 30%);pointer-events:none}
+.hero__orbit {position:absolute;z-index:2;inset:11% 5% auto auto;width:58%;aspect-ratio:1;border:1px solid #ff3cc65e;border-radius:50%;box-shadow:0 0 54px #fe3cc62a;pointer-events:none}
+.hero__orbit--two {inset:5% 2% auto auto;width:70%;border-color:#ff3cc631}
+.hero__image-label {position:absolute;bottom:15px;left:17px;right:17px;display:flex;justify-content:space-between;gap:12px;color:#fff;font:12px/1.6 var(--mono);z-index:3}
+.hero__image-label b {color:var(--acid);font-weight:500}
+.hero__cross {position:absolute;z-index:3;font:19px var(--mono);color:var(--acid);left:14px;top:12px}
+.hero__cross--bottom {top:auto;left:auto;right:12px;bottom:32px}
+.hero__vertical-note {position:absolute;right:10px;top:14px;writing-mode:vertical-rl;font:12px var(--mono);color:#eee8f7;letter-spacing:.12em;z-index:4}
+.intro-block h2, .section-heading h2, .about-main h2, .contact-inner h2 {line-height:1.03}
+.chapter-grid {grid-template-columns:minmax(0,1fr);}
+.chapter-copy {container-type:inline-size}
+.chapter-copy h2 {line-height:1.01;letter-spacing:-.055em;max-width:100%}
+.chapter-gallery {min-width:0}
+.contact-actions {display:grid;grid-template-columns:minmax(0,1fr);gap:12px;max-width:770px;margin:30px auto}
+.contact-actions .button {justify-content:center;text-align:center;min-height:54px}
+.contact-hint {text-align:center;color:var(--mute);font-size:13px;line-height:1.6}
+.footer__legal {border-top:1px solid var(--line);margin-top:22px;padding-block:18px 32px;color:#b5b0be;font:13px/1.8 var(--font)}
+.footer__legal strong {color:var(--ink)}
+.footer__legal address {font-style:normal}
+@media (min-width:600px) {
+  .hero__grid {padding-block:46px 58px}
+  .hero__index {margin-bottom:26px}
+  .hero__media {aspect-ratio:1.55}
+  .contact-actions {grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (min-width:950px) {
+  .hero__grid {grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(24px,3vw,56px);align-items:center;padding-block:36px 70px}
+  .hero__media {aspect-ratio:1.1;max-height:640px}
+  .hero__smallprint {margin-top:auto}
+  .hero__index {margin-bottom:clamp(25px,3vw,45px)}
+  .chapter-grid {grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr)}
+  .contact-actions {grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (min-width:1450px) {
+  .hero__grid {padding-block:56px 100px}
+  .hero__media {aspect-ratio:1.2}
+}
+@media (max-width:599px) {
+  .hero__meta-end {display:none}
+  .hero__smallprint {flex-wrap:wrap}
+  .hero__image-label {font-size:12px}
+  .chapter-gallery {grid-template-rows:175px 175px}
+}
+@media (max-width:380px) {
+  .hero__title-line {letter-spacing:-.09em}
+  .hero__image-label span {max-width:52%}
+}
+@media (prefers-reduced-motion: reduce) {html {scroll-behavior:auto} *,*::before,*::after {animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Language selection stays accessible at 320px and RTL. */
+.language-switch {min-height:42px;min-width:68px;padding:8px;color:var(--ink);background:#191820;border:1px solid #625f6b;border-radius:6px;font:12px var(--mono);cursor:pointer} .language-switch option {background:#17141f;color:#fff} .translation-notice {color:#f0d8ab;background:#35291d;border-inline-start:3px solid #f9c36c;padding:12px 17px;font:13px/1.5 var(--font);max-width:100%;margin:20px auto} .hero__title-line {unicode-bidi:plaintext} html[dir=rtl] body {font-family:'Noto Naskh Arabic','Noto Sans Arabic',Tahoma,var(--font)} html[dir=rtl] .hero .hero__title {letter-spacing:0;line-height:1.3;font-family:Tahoma,var(--font);font-size:clamp(1.9rem,10cqw,5.5rem)} html[dir=rtl] .hero__vertical-note {writing-mode:vertical-lr} html[dir=rtl] .hero__media img {transform:none} html[dir=rtl] .card-counter, html[dir=rtl] .hero__image-label {direction:ltr} @media(max-width:850px){.header-inner {gap:10px}.language-switch {order:1}.header-action {display:none}}
+
+/* Progressive-enhancement project links: real case URLs without JavaScript. */
+/* Project cards: the link is a full-card flex column (owner-approved), so .card-body (flex:1) puts .card-bottom on the
+   card's bottom edge. The card itself is a flex column so the link fills its min-height and still grows with long text. */
+.project-card {display:flex;flex-direction:column}
+.project-card>a {flex:1;display:flex;flex-direction:column;color:inherit;text-decoration:none}
+/* Featured cards: the link is the full-card flex column again, so .featured-bottom (margin-top:auto) sits on the .featured-media::after gradient. */
+.featured-card>a {position:absolute;inset:0;display:flex;flex-direction:column;color:inherit;text-decoration:none}
+ .project-card>a:focus-visible,.featured-card>a:focus-visible {outline:2px solid var(--acid);outline-offset:3px}
+ .project-card>a:hover .card-corner,.featured-card>a:hover .round-arrow {color:var(--acid)} .footer__legal {width:min(var(--content-width),calc(100% - 2*var(--gutter)));margin-inline:auto}
+
+/* RTL hero: Arabic glyph ascenders/diacritics need more vertical room than Latin capitals. */
+html[dir="rtl"] .hero__title-line {display:block;line-height:1.7;min-height:1.7em;padding-block:0 .09em;white-space:normal;word-break:normal;text-align:start} html[dir="rtl"] .hero__outline {color:var(--ink);-webkit-text-stroke:0;text-shadow:none} html[dir="rtl"] .hero__title .hero__period {color:var(--pink);vertical-align:baseline} html[dir="rtl"] .hero__title {font-family:Tahoma,'Noto Naskh Arabic',Arial,sans-serif;font-weight:700} html[dir="rtl"] .hero__copy {text-align:start} html[dir="rtl"] .hero__smallprint {direction:ltr} html[dir="rtl"] .hero__actions {justify-content:flex-start}
+
+.visual-real picture {display:block;width:100%;height:100%;overflow:hidden}
+.visual-real picture img {display:block;width:100%;height:100%;object-fit:cover}
+
+/* Case modal: the title spans the full modal width (owner-approved); the visual follows below. minmax(0,…) keeps
+   the track from growing to a long title's min-content. */
+.case-hero {grid-template-columns:minmax(0,1fr)}
+
+/* The count label is a direct div child of .section-heading: never let flex shrink it below its nowrap text,
+   so its padding stays equal on both sides at every width. */
+.section-heading>.archive-index {flex:none}
+
+/* ---------- Interaction states (hover, focus-visible, active) ----------
+   150–250 ms transitions on background, colour, border and transform; the ↗ arrow (wrapped in .arrow-nudge
+   by i18n.js) nudges up-right; focus ring is a 2 px lime outline at 3 px offset; no transforms under reduced motion. */
+.button,.header-action,.filter,.language-switch,.project-card>a,.featured-card>a,.world,.journey-tile,.discipline-list a,
+.case-links a,.case-gallery button,.modal-topline button,.empty-state button,.nav a,.contact-social a,.footer a,.contact-main,.mobile-menu a,.menu-toggle
+{transition:background-color .2s ease,color .2s ease,border-color .2s ease,transform .2s ease,filter .2s ease,padding-left .2s ease}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible {outline:2px solid var(--acid);outline-offset:3px}
+.search-wrap:focus-within {outline:2px solid var(--acid);outline-offset:3px}
+.arrow-nudge {display:inline-block;transition:transform .2s ease}
+:is(a,button):is(:hover,:focus-visible) .arrow-nudge {transform:translate(2px,-2px)}
+.button:hover {transform:translateY(-2px)}
+.button:active,.header-action:active,.filter:active,.case-links a:active,.modal-topline button:active,.empty-state button:active {transform:translateY(0) scale(.98)}
+.button-lime:hover {background:#edff8a}
+.button-lime:active {background:#c6ec12}
+.button-outline:hover,.button-outline:focus-visible {border-color:var(--acid);color:var(--acid);background:#d9ff2912}
+.button-outline:active {background:#d9ff2924}
+.header-action:hover,.header-action:focus-visible {background:var(--acid);color:#0b0b0e;border-color:var(--acid)}
+.header-action:active {background:#c6ec12}
+.filter:hover,.filter:focus-visible {color:#f5f4f6;border-color:#817d88;background:#1f1d26}
+.filter.active:hover,.filter.active:focus-visible {color:#11110e;background:#edff8a;border-color:#edff8a}
+.language-switch:hover,.language-switch:focus-visible {border-color:var(--acid);background:#24222c}
+.language-switch:active {background:#2c2935}
+.project-card>a:hover,.featured-card>a:hover,.project-card>a:focus-visible,.featured-card>a:focus-visible {background-color:#ffffff06}
+.project-card>a:active,.featured-card>a:active {background-color:#ffffff0d}
+.project-card:has(>a:focus-visible),.featured-card:has(>a:focus-visible) {outline:2px solid var(--acid);outline-offset:3px}
+.world:hover,.world:focus-visible {border-color:#ffffffa0}
+.world:active,.journey-tile:active {transform:translateY(-1px)}
+.journey-tile:hover,.journey-tile:focus-visible {transform:translateY(-4px);border-color:var(--pink)}
+.discipline-list a:focus-visible {color:var(--acid);padding-left:12px}
+.discipline-list a:active {color:#c6ec12}
+.case-links a:focus-visible {background:#e9ff86}
+.case-gallery button:hover,.case-gallery button:focus-visible {border-color:#8d7f96;color:#fff}
+.modal-topline button:hover,.modal-topline button:focus-visible {border-color:var(--acid);color:var(--acid)}
+.empty-state button:hover,.empty-state button:focus-visible {background:#edff8a}
+.nav a:focus-visible,.contact-social a:focus-visible,.mobile-menu a:hover,.mobile-menu a:focus-visible {color:var(--acid)}
+.contact-main:hover,.contact-main:focus-visible {color:#2c310f}
+@media (prefers-reduced-motion: reduce) {
+  .button:hover,.button:active,.header-action:active,.filter:active,.case-links a:active,.modal-topline button:active,.empty-state button:active,
+  .featured-card:hover,.project-card:hover,.project-card:hover .visual-real img,.world:hover,.world:active,.journey-tile:hover,.journey-tile:focus-visible,.journey-tile:active,
+  :is(a,button):is(:hover,:focus-visible) .arrow-nudge {transform:none}
+}
+
+/* BEGIN GENERATED EN STEPS (tests/type_steps.py) */
+/* px font-size steps for every locale (hard rule 3); RU/UK headings override in cyrillic.css. */
+.hero .hero__title {font-size:37px}
+.chapter-copy h2 {font-size:30px}
+.intro-block h2 {font-size:25px}
+.featured-section h2 {font-size:30px}
+.work-section h2 {font-size:30px}
+.worlds-section h2 {font-size:30px}
+.journey-section h2 {font-size:24px}
+.about-main h2 {font-size:28px}
+.contact-inner h2 {font-size:29px}
+.featured-bottom h3 {font-size:23px}
+.world h3 {font-size:18px}
+.journey-tile strong {font-size:24px}
+.journey-wide strong {font-size:24px}
+.case-hero h2 {font-size:18px}
+.hero__statement {font-size:15px}
+.ticker-track {font-size:18px}
+.chapter-copy p {font-size:16px}
+.contact-main {font-size:20px}
+.visual-art::after {font-size:65px}
+.featured-card .visual-art::after {font-size:90px}
+.project-card .visual-art::after {font-size:45px}
+.case-hero-visual .visual-art::after {font-size:50px}
+@media (min-width:332px) {
+  .journey-tile strong {font-size:25px}
+  .journey-wide strong {font-size:25px}
+}
+@media (min-width:336px) {
+  .about-main h2 {font-size:30px}
+}
+@media (min-width:344px) {
+  .journey-tile strong {font-size:26px}
+  .journey-wide strong {font-size:26px}
+}
+@media (min-width:348px) {
+  .intro-block h2 {font-size:28px}
+  .world h3 {font-size:21px}
+}
+@media (min-width:352px) {
+  .contact-inner h2 {font-size:32px}
+}
+@media (min-width:356px) {
+  .hero .hero__title {font-size:39px}
+  .journey-section h2 {font-size:27px}
+  .case-hero h2 {font-size:21px}
+}
+@media (min-width:360px) {
+  .journey-tile strong {font-size:27px}
+  .journey-wide strong {font-size:27px}
+}
+@media (min-width:372px) {
+  .hero .hero__title {font-size:41px}
+  .intro-block h2 {font-size:30px}
+  .journey-tile strong {font-size:28px}
+  .journey-wide strong {font-size:28px}
+}
+@media (min-width:381px) {
+  .hero .hero__title {font-size:42px}
+  .chapter-copy h2 {font-size:31px}
+  .featured-section h2 {font-size:31px}
+  .work-section h2 {font-size:31px}
+  .worlds-section h2 {font-size:31px}
+  .journey-section h2 {font-size:29px}
+  .about-main h2 {font-size:31px}
+  .world h3 {font-size:23px}
+  .journey-tile strong {font-size:29px}
+  .journey-wide strong {font-size:29px}
+  .case-hero h2 {font-size:23px}
+}
+@media (min-width:384px) {
+  .intro-block h2 {font-size:31px}
+}
+@media (min-width:396px) {
+  .hero .hero__title {font-size:44px}
+  .featured-bottom h3 {font-size:24px}
+}
+@media (min-width:400px) {
+  .chapter-copy h2 {font-size:32px}
+  .intro-block h2 {font-size:32px}
+  .featured-section h2 {font-size:32px}
+  .work-section h2 {font-size:32px}
+  .worlds-section h2 {font-size:32px}
+  .about-main h2 {font-size:32px}
+  .journey-tile strong {font-size:30px}
+  .journey-wide strong {font-size:30px}
+}
+@media (min-width:404px) {
+  .contact-inner h2 {font-size:34px}
+}
+@media (min-width:412px) {
+  .journey-section h2 {font-size:32px}
+  .world h3 {font-size:26px}
+}
+@media (min-width:416px) {
+  .hero .hero__title {font-size:47px}
+  .chapter-copy h2 {font-size:34px}
+  .intro-block h2 {font-size:34px}
+  .featured-section h2 {font-size:34px}
+  .work-section h2 {font-size:34px}
+  .worlds-section h2 {font-size:34px}
+  .about-main h2 {font-size:34px}
+  .featured-bottom h3 {font-size:25px}
+  .journey-tile strong {font-size:32px}
+  .journey-wide strong {font-size:32px}
+}
+@media (min-width:424px) {
+  .journey-section h2 {font-size:33px}
+  .case-hero h2 {font-size:26px}
+}
+@media (min-width:428px) {
+  .contact-inner h2 {font-size:36px}
+}
+@media (min-width:432px) {
+  .featured-bottom h3 {font-size:26px}
+}
+@media (min-width:436px) {
+  .journey-section h2 {font-size:34px}
+}
+@media (min-width:440px) {
+  .hero .hero__title {font-size:50px}
+  .chapter-copy h2 {font-size:36px}
+  .intro-block h2 {font-size:36px}
+  .featured-section h2 {font-size:36px}
+  .work-section h2 {font-size:36px}
+  .worlds-section h2 {font-size:36px}
+  .about-main h2 {font-size:36px}
+  .journey-tile strong {font-size:33px}
+  .journey-wide strong {font-size:33px}
+}
+@media (min-width:448px) {
+  .journey-section h2 {font-size:35px}
+  .featured-bottom h3 {font-size:27px}
+}
+@media (min-width:452px) {
+  .world h3 {font-size:29px}
+}
+@media (min-width:456px) {
+  .contact-inner h2 {font-size:38px}
+  .journey-tile strong {font-size:35px}
+  .journey-wide strong {font-size:35px}
+}
+@media (min-width:460px) {
+  .journey-section h2 {font-size:36px}
+}
+@media (min-width:464px) {
+  .chapter-copy h2 {font-size:38px}
+  .intro-block h2 {font-size:38px}
+  .featured-section h2 {font-size:38px}
+  .work-section h2 {font-size:38px}
+  .worlds-section h2 {font-size:38px}
+  .about-main h2 {font-size:38px}
+  .featured-bottom h3 {font-size:28px}
+  .case-hero h2 {font-size:29px}
+}
+@media (min-width:468px) {
+  .hero .hero__title {font-size:53px}
+}
+@media (min-width:472px) {
+  .journey-section h2 {font-size:37px}
+}
+@media (min-width:480px) {
+  .contact-inner h2 {font-size:40px}
+}
+@media (min-width:484px) {
+  .journey-section h2 {font-size:38px}
+  .featured-bottom h3 {font-size:29px}
+  .journey-tile strong {font-size:37px}
+  .journey-wide strong {font-size:37px}
+}
+@media (min-width:492px) {
+  .hero .hero__title {font-size:56px}
+  .chapter-copy h2 {font-size:40px}
+  .intro-block h2 {font-size:40px}
+  .featured-section h2 {font-size:40px}
+  .work-section h2 {font-size:40px}
+  .worlds-section h2 {font-size:40px}
+  .about-main h2 {font-size:40px}
+}
+@media (min-width:496px) {
+  .journey-section h2 {font-size:39px}
+}
+@media (min-width:500px) {
+  .featured-bottom h3 {font-size:30px}
+}
+@media (min-width:504px) {
+  .contact-inner h2 {font-size:42px}
+  .world h3 {font-size:33px}
+}
+@media (min-width:508px) {
+  .journey-section h2 {font-size:40px}
+}
+@media (min-width:512px) {
+  .journey-tile strong {font-size:39px}
+  .journey-wide strong {font-size:39px}
+}
+@media (min-width:516px) {
+  .chapter-copy h2 {font-size:42px}
+  .intro-block h2 {font-size:42px}
+  .featured-section h2 {font-size:42px}
+  .work-section h2 {font-size:42px}
+  .worlds-section h2 {font-size:42px}
+  .about-main h2 {font-size:42px}
+  .featured-bottom h3 {font-size:31px}
+  .case-hero h2 {font-size:33px}
+}
+@media (min-width:520px) {
+  .hero .hero__title {font-size:59px}
+}
+@media (min-width:524px) {
+  .journey-section h2 {font-size:41px}
+}
+@media (min-width:532px) {
+  .contact-inner h2 {font-size:44px}
+}
+@media (min-width:536px) {
+  .journey-section h2 {font-size:42px}
+  .featured-bottom h3 {font-size:33px}
+}
+@media (min-width:544px) {
+  .chapter-copy h2 {font-size:44px}
+  .intro-block h2 {font-size:45px}
+  .featured-section h2 {font-size:44px}
+  .work-section h2 {font-size:44px}
+  .worlds-section h2 {font-size:44px}
+  .about-main h2 {font-size:44px}
+}
+@media (min-width:548px) {
+  .hero .hero__title {font-size:62px}
+  .journey-section h2 {font-size:43px}
+}
+@media (min-width:556px) {
+  .contact-inner h2 {font-size:46px}
+  .world h3 {font-size:37px}
+}
+@media (min-width:560px) {
+  .journey-section h2 {font-size:44px}
+}
+@media (min-width:568px) {
+  .chapter-copy h2 {font-size:46px}
+  .featured-section h2 {font-size:46px}
+  .work-section h2 {font-size:46px}
+  .worlds-section h2 {font-size:46px}
+  .about-main h2 {font-size:46px}
+  .featured-bottom h3 {font-size:34px}
+}
+@media (min-width:572px) {
+  .journey-section h2 {font-size:45px}
+  .case-hero h2 {font-size:37px}
+}
+@media (min-width:576px) {
+  .hero .hero__title {font-size:64px}
+}
+@media (min-width:580px) {
+  .contact-inner h2 {font-size:48px}
+}
+@media (min-width:581px) {
+  .hero .hero__title {font-size:65px}
+  .chapter-copy h2 {font-size:47px}
+  .intro-block h2 {font-size:47px}
+  .featured-section h2 {font-size:47px}
+  .work-section h2 {font-size:42px}
+  .worlds-section h2 {font-size:47px}
+  .about-main h2 {font-size:47px}
+  .featured-bottom h3 {font-size:35px}
+  .world h3 {font-size:38px}
+  .journey-tile strong {font-size:40px}
+  .journey-wide strong {font-size:40px}
+  .case-hero h2 {font-size:35px}
+  .contact-main {font-size:19px}
+}
+@media (min-width:584px) {
+  .journey-section h2 {font-size:46px}
+}
+@media (min-width:599px) {
+  .journey-section h2 {font-size:47px}
+}
+@media (min-width:600px) {
+  .hero .hero__title {font-size:68px}
+  .chapter-copy h2 {font-size:41px}
+  .intro-block h2 {font-size:41px}
+  .featured-section h2 {font-size:41px}
+  .work-section h2 {font-size:41px}
+  .worlds-section h2 {font-size:41px}
+  .journey-section h2 {font-size:41px}
+  .about-main h2 {font-size:39px}
+  .contact-inner h2 {font-size:41px}
+  .featured-bottom h3 {font-size:37px}
+  .world h3 {font-size:39px}
+  .journey-tile strong {font-size:30px}
+  .journey-wide strong {font-size:30px}
+  .case-hero h2 {font-size:34px}
+}
+@media (min-width:620px) {
+  .journey-tile strong {font-size:31px}
+  .journey-wide strong {font-size:31px}
+}
+@media (min-width:621px) {
+  .hero .hero__title {font-size:71px}
+  .chapter-copy h2 {font-size:42px}
+  .intro-block h2 {font-size:43px}
+  .featured-section h2 {font-size:42px}
+  .work-section h2 {font-size:42px}
+  .worlds-section h2 {font-size:42px}
+  .journey-section h2 {font-size:42px}
+  .about-main h2 {font-size:40px}
+  .contact-inner h2 {font-size:42px}
+  .featured-bottom h3 {font-size:28px}
+  .world h3 {font-size:40px}
+  .journey-tile strong {font-size:22px}
+  .case-hero h2 {font-size:35px}
+  .visual-art::after {font-size:66px}
+  .case-hero-visual .visual-art::after {font-size:51px}
+}
+@media (min-width:640px) {
+  .journey-wide strong {font-size:32px}
+}
+@media (min-width:648px) {
+  .chapter-copy h2 {font-size:44px}
+  .featured-section h2 {font-size:44px}
+  .work-section h2 {font-size:44px}
+  .worlds-section h2 {font-size:44px}
+  .journey-section h2 {font-size:44px}
+  .about-main h2 {font-size:41px}
+  .contact-inner h2 {font-size:44px}
+}
+@media (min-width:658px) {
+  .case-hero-visual .visual-art::after {font-size:54px}
+}
+@media (min-width:660px) {
+  .hero .hero__title {font-size:75px}
+  .journey-wide strong {font-size:33px}
+}
+@media (min-width:664px) {
+  .about-main h2 {font-size:42px}
+}
+@media (min-width:672px) {
+  .journey-tile strong {font-size:25px}
+  .case-hero h2 {font-size:39px}
+}
+@media (min-width:680px) {
+  .chapter-copy h2 {font-size:46px}
+  .intro-block h2 {font-size:47px}
+  .featured-section h2 {font-size:46px}
+  .work-section h2 {font-size:46px}
+  .worlds-section h2 {font-size:46px}
+  .journey-section h2 {font-size:46px}
+  .about-main h2 {font-size:43px}
+  .contact-inner h2 {font-size:46px}
+}
+@media (min-width:684px) {
+  .world h3 {font-size:45px}
+  .journey-wide strong {font-size:35px}
+}
+@media (min-width:696px) {
+  .hero .hero__title {font-size:79px}
+  .about-main h2 {font-size:44px}
+  .case-hero-visual .visual-art::after {font-size:57px}
+}
+@media (min-width:708px) {
+  .chapter-copy h2 {font-size:48px}
+  .featured-section h2 {font-size:48px}
+  .work-section h2 {font-size:48px}
+  .worlds-section h2 {font-size:48px}
+  .journey-section h2 {font-size:48px}
+  .contact-inner h2 {font-size:48px}
+}
+@media (min-width:712px) {
+  .about-main h2 {font-size:46px}
+}
+@media (min-width:724px) {
+  .journey-wide strong {font-size:37px}
+}
+@media (min-width:732px) {
+  .hero .hero__title {font-size:83px}
+}
+@media (min-width:735px) {
+  .case-hero-visual .visual-art::after {font-size:60px}
+}
+@media (min-width:736px) {
+  .journey-tile strong {font-size:28px}
+}
+@media (min-width:740px) {
+  .chapter-copy h2 {font-size:51px}
+  .intro-block h2 {font-size:52px}
+  .featured-section h2 {font-size:51px}
+  .work-section h2 {font-size:51px}
+  .worlds-section h2 {font-size:51px}
+  .journey-section h2 {font-size:51px}
+  .contact-inner h2 {font-size:51px}
+}
+@media (min-width:744px) {
+  .about-main h2 {font-size:48px}
+  .case-hero h2 {font-size:44px}
+}
+@media (min-width:757px) {
+  .visual-art::after {font-size:70px}
+}
+@media (min-width:764px) {
+  .world h3 {font-size:51px}
+  .journey-wide strong {font-size:39px}
+}
+@media (min-width:772px) {
+  .hero .hero__title {font-size:87px}
+}
+@media (min-width:774px) {
+  .case-hero-visual .visual-art::after {font-size:63px}
+}
+@media (min-width:776px) {
+  .about-main h2 {font-size:50px}
+}
+@media (min-width:784px) {
+  .contact-main {font-size:20px}
+}
+@media (min-width:788px) {
+  .chapter-copy h2 {font-size:53px}
+  .featured-section h2 {font-size:53px}
+  .work-section h2 {font-size:53px}
+  .worlds-section h2 {font-size:53px}
+  .journey-section h2 {font-size:53px}
+  .contact-inner h2 {font-size:53px}
+}
+@media (min-width:801px) {
+  .hero .hero__title {font-size:91px}
+  .chapter-copy h2 {font-size:55px}
+  .intro-block h2 {font-size:56px}
+  .featured-section h2 {font-size:55px}
+  .work-section h2 {font-size:55px}
+  .worlds-section h2 {font-size:55px}
+  .journey-section h2 {font-size:49px}
+  .about-main h2 {font-size:52px}
+  .contact-inner h2 {font-size:55px}
+  .world h3 {font-size:53px}
+  .journey-tile strong {font-size:30px}
+  .journey-wide strong {font-size:41px}
+  .case-hero h2 {font-size:48px}
+  .visual-art::after {font-size:74px}
+  .featured-card .visual-art::after {font-size:91px}
+  .case-hero-visual .visual-art::after {font-size:66px}
+}
+@media (min-width:825px) {
+  .contact-main {font-size:21px}
+}
+@media (min-width:828px) {
+  .featured-bottom h3 {font-size:29px}
+}
+@media (min-width:840px) {
+  .about-main h2 {font-size:54px}
+}
+@media (min-width:844px) {
+  .hero .hero__title {font-size:94px}
+}
+@media (min-width:848px) {
+  .chapter-copy h2 {font-size:57px}
+  .featured-section h2 {font-size:57px}
+  .work-section h2 {font-size:57px}
+  .worlds-section h2 {font-size:57px}
+  .contact-inner h2 {font-size:57px}
+  .journey-wide strong {font-size:42px}
+  .visual-art::after {font-size:76px}
+}
+@media (min-width:851px) {
+  .hero .hero__title {font-size:97px}
+  .chapter-copy h2 {font-size:58px}
+  .intro-block h2 {font-size:58px}
+  .featured-section h2 {font-size:58px}
+  .work-section h2 {font-size:58px}
+  .worlds-section h2 {font-size:58px}
+  .journey-section h2 {font-size:53px}
+  .about-main h2 {font-size:56px}
+  .contact-inner h2 {font-size:58px}
+  .featured-bottom h3 {font-size:30px}
+  .world h3 {font-size:57px}
+  .journey-tile strong {font-size:32px}
+  .journey-wide strong {font-size:43px}
+  .case-hero h2 {font-size:51px}
+  .visual-art::after {font-size:78px}
+  .featured-card .visual-art::after {font-size:96px}
+  .project-card .visual-art::after {font-size:46px}
+  .case-hero-visual .visual-art::after {font-size:70px}
+}
+@media (min-width:866px) {
+  .contact-main {font-size:22px}
+}
+@media (min-width:884px) {
+  .featured-bottom h3 {font-size:31px}
+}
+@media (min-width:888px) {
+  .journey-wide strong {font-size:45px}
+}
+@media (min-width:894px) {
+  .visual-art::after {font-size:82px}
+}
+@media (min-width:896px) {
+  .chapter-copy h2 {font-size:61px}
+  .intro-block h2 {font-size:62px}
+  .featured-section h2 {font-size:61px}
+  .work-section h2 {font-size:61px}
+  .worlds-section h2 {font-size:61px}
+  .about-main h2 {font-size:59px}
+  .contact-inner h2 {font-size:61px}
+}
+@media (min-width:900px) {
+  .hero .hero__title {font-size:103px}
+  .featured-card .visual-art::after {font-size:101px}
+}
+@media (min-width:903px) {
+  .case-hero-visual .visual-art::after {font-size:74px}
+}
+@media (min-width:908px) {
+  .contact-main {font-size:23px}
+}
+@media (min-width:916px) {
+  .featured-bottom h3 {font-size:33px}
+}
+@media (min-width:924px) {
+  .journey-section h2 {font-size:59px}
+}
+@media (min-width:928px) {
+  .journey-tile strong {font-size:36px}
+  .journey-wide strong {font-size:47px}
+  .ticker-track {font-size:19px}
+}
+@media (min-width:932px) {
+  .case-hero h2 {font-size:57px}
+}
+@media (min-width:940px) {
+  .chapter-copy h2 {font-size:63px}
+  .featured-section h2 {font-size:63px}
+  .work-section h2 {font-size:63px}
+  .worlds-section h2 {font-size:63px}
+  .contact-inner h2 {font-size:63px}
+  .visual-art::after {font-size:85px}
+}
+@media (min-width:944px) {
+  .world h3 {font-size:64px}
+}
+@media (min-width:947px) {
+  .featured-card .visual-art::after {font-size:104px}
+}
+@media (min-width:949px) {
+  .contact-main {font-size:24px}
+  .project-card .visual-art::after {font-size:47px}
+}
+@media (min-width:950px) {
+  .hero .hero__title {font-size:54px}
+  .chapter-copy h2 {font-size:54px}
+  .intro-block h2 {font-size:64px}
+  .featured-section h2 {font-size:64px}
+  .work-section h2 {font-size:64px}
+  .worlds-section h2 {font-size:64px}
+  .journey-section h2 {font-size:61px}
+  .about-main h2 {font-size:61px}
+  .contact-inner h2 {font-size:64px}
+  .journey-wide strong {font-size:48px}
+  .case-hero h2 {font-size:58px}
+  .visual-art::after {font-size:86px}
+  .featured-card .visual-art::after {font-size:105px}
+  .project-card .visual-art::after {font-size:48px}
+  .case-hero-visual .visual-art::after {font-size:76px}
+}
+@media (min-width:951px) {
+  .hero .hero__title {font-size:55px}
+  .chapter-copy h2 {font-size:52px}
+  .intro-block h2 {font-size:65px}
+  .featured-section h2 {font-size:65px}
+  .work-section h2 {font-size:65px}
+  .worlds-section h2 {font-size:65px}
+  .about-main h2 {font-size:62px}
+  .contact-inner h2 {font-size:65px}
+  .featured-bottom h3 {font-size:34px}
+  .visual-art::after {font-size:88px}
+  .featured-card .visual-art::after {font-size:107px}
+  .case-hero-visual .visual-art::after {font-size:78px}
+}
+@media (min-width:980px) {
+  .ticker-track {font-size:20px}
+}
+@media (min-width:988px) {
+  .about-main h2 {font-size:65px}
+}
+@media (min-width:990px) {
+  .contact-main {font-size:25px}
+  .project-card .visual-art::after {font-size:50px}
+}
+@media (min-width:992px) {
+  .journey-wide strong {font-size:51px}
+}
+@media (min-width:1000px) {
+  .journey-section h2 {font-size:65px}
+}
+@media (min-width:1003px) {
+  .featured-card .visual-art::after {font-size:113px}
+}
+@media (min-width:1004px) {
+  .hero .hero__title {font-size:58px}
+  .intro-block h2 {font-size:71px}
+  .featured-section h2 {font-size:69px}
+  .work-section h2 {font-size:69px}
+  .worlds-section h2 {font-size:69px}
+  .contact-inner h2 {font-size:69px}
+  .featured-bottom h3 {font-size:36px}
+}
+@media (min-width:1006px) {
+  .case-hero-visual .visual-art::after {font-size:82px}
+}
+@media (min-width:1009px) {
+  .visual-art::after {font-size:93px}
+}
+@media (min-width:1012px) {
+  .journey-section h2 {font-size:66px}
+}
+@media (min-width:1028px) {
+  .journey-section h2 {font-size:67px}
+}
+@media (min-width:1031px) {
+  .ticker-track {font-size:21px}
+  .contact-main {font-size:26px}
+  .project-card .visual-art::after {font-size:53px}
+}
+@media (min-width:1040px) {
+  .journey-section h2 {font-size:68px}
+}
+@media (min-width:1044px) {
+  .case-hero h2 {font-size:65px}
+}
+@media (min-width:1048px) {
+  .chapter-copy h2 {font-size:58px}
+  .about-main h2 {font-size:69px}
+}
+@media (min-width:1052px) {
+  .journey-section h2 {font-size:69px}
+  .world h3 {font-size:72px}
+  .journey-wide strong {font-size:53px}
+}
+@media (min-width:1056px) {
+  .journey-tile strong {font-size:41px}
+}
+@media (min-width:1057px) {
+  .case-hero-visual .visual-art::after {font-size:87px}
+}
+@media (min-width:1060px) {
+  .hero .hero__title {font-size:61px}
+  .featured-card .visual-art::after {font-size:120px}
+}
+@media (min-width:1064px) {
+  .featured-section h2 {font-size:73px}
+  .work-section h2 {font-size:73px}
+  .worlds-section h2 {font-size:73px}
+  .journey-section h2 {font-size:70px}
+  .contact-inner h2 {font-size:73px}
+  .featured-bottom h3 {font-size:38px}
+}
+@media (min-width:1065px) {
+  .chapter-copy p {font-size:17px}
+}
+@media (min-width:1066px) {
+  .visual-art::after {font-size:98px}
+}
+@media (min-width:1073px) {
+  .contact-main {font-size:27px}
+}
+@media (min-width:1080px) {
+  .journey-section h2 {font-size:71px}
+}
+@media (min-width:1083px) {
+  .ticker-track {font-size:22px}
+}
+@media (min-width:1093px) {
+  .project-card .visual-art::after {font-size:56px}
+}
+@media (min-width:1096px) {
+  .journey-section h2 {font-size:72px}
+}
+@media (min-width:1108px) {
+  .journey-section h2 {font-size:73px}
+}
+@media (min-width:1112px) {
+  .hero .hero__title {font-size:64px}
+  .about-main h2 {font-size:73px}
+}
+@media (min-width:1114px) {
+  .contact-main {font-size:28px}
+}
+@media (min-width:1120px) {
+  .featured-bottom h3 {font-size:40px}
+}
+@media (min-width:1122px) {
+  .case-hero-visual .visual-art::after {font-size:92px}
+}
+@media (min-width:1123px) {
+  .visual-art::after {font-size:104px}
+}
+@media (min-width:1124px) {
+  .intro-block h2 {font-size:77px}
+  .featured-section h2 {font-size:77px}
+  .work-section h2 {font-size:77px}
+  .worlds-section h2 {font-size:77px}
+  .journey-section h2 {font-size:74px}
+  .contact-inner h2 {font-size:77px}
+}
+@media (min-width:1125px) {
+  .featured-card .visual-art::after {font-size:127px}
+}
+@media (min-width:1131px) {
+  .chapter-copy p {font-size:18px}
+}
+@media (min-width:1135px) {
+  .ticker-track {font-size:23px}
+}
+@media (min-width:1140px) {
+  .journey-section h2 {font-size:76px}
+}
+@media (min-width:1155px) {
+  .contact-main {font-size:29px}
+  .project-card .visual-art::after {font-size:58px}
+}
+@media (min-width:1156px) {
+  .about-main h2 {font-size:75px}
+}
+@media (min-width:1168px) {
+  .hero .hero__title {font-size:66px}
+}
+@media (min-width:1172px) {
+  .chapter-copy h2 {font-size:65px}
+  .journey-section h2 {font-size:78px}
+}
+@media (min-width:1176px) {
+  .world h3 {font-size:81px}
+}
+@media (min-width:1180px) {
+  .featured-bottom h3 {font-size:41px}
+  .journey-tile strong {font-size:46px}
+}
+@media (min-width:1181px) {
+  .hero .hero__title {font-size:68px}
+  .intro-block h2 {font-size:81px}
+  .featured-section h2 {font-size:81px}
+  .work-section h2 {font-size:81px}
+  .worlds-section h2 {font-size:81px}
+  .journey-section h2 {font-size:79px}
+  .about-main h2 {font-size:64px}
+  .contact-inner h2 {font-size:81px}
+  .featured-bottom h3 {font-size:42px}
+  .case-hero h2 {font-size:67px}
+  .ticker-track {font-size:24px}
+  .contact-main {font-size:30px}
+  .visual-art::after {font-size:109px}
+  .featured-card .visual-art::after {font-size:133px}
+  .project-card .visual-art::after {font-size:60px}
+  .case-hero-visual .visual-art::after {font-size:97px}
+}
+@media (min-width:1198px) {
+  .chapter-copy p {font-size:19px}
+}
+@media (min-width:1216px) {
+  .journey-section h2 {font-size:82px}
+}
+@media (min-width:1238px) {
+  .ticker-track {font-size:25px}
+  .contact-main {font-size:31px}
+  .project-card .visual-art::after {font-size:63px}
+}
+@media (min-width:1240px) {
+  .hero .hero__title {font-size:72px}
+  .featured-bottom h3 {font-size:44px}
+}
+@media (min-width:1247px) {
+  .featured-card .visual-art::after {font-size:141px}
+}
+@media (min-width:1249px) {
+  .visual-art::after {font-size:115px}
+}
+@media (min-width:1251px) {
+  .case-hero-visual .visual-art::after {font-size:103px}
+}
+@media (min-width:1252px) {
+  .contact-inner h2 {font-size:83px}
+}
+@media (min-width:1260px) {
+  .world h3 {font-size:87px}
+}
+@media (min-width:1264px) {
+  .chapter-copy p {font-size:20px}
+}
+@media (min-width:1268px) {
+  .hero__statement {font-size:15.5px}
+}
+@media (min-width:1274px) {
+  .hero__statement {font-size:16px}
+}
+@media (min-width:1279px) {
+  .contact-main {font-size:32px}
+}
+@media (min-width:1289px) {
+  .ticker-track {font-size:26px}
+}
+@media (min-width:1299px) {
+  .project-card .visual-art::after {font-size:66px}
+}
+@media (min-width:1300px) {
+  .featured-bottom h3 {font-size:46px}
+}
+@media (min-width:1304px) {
+  .about-main h2 {font-size:72px}
+}
+@media (min-width:1312px) {
+  .hero .hero__title {font-size:76px}
+}
+@media (min-width:1316px) {
+  .chapter-copy h2 {font-size:73px}
+}
+@media (min-width:1318px) {
+  .visual-art::after {font-size:122px}
+}
+@media (min-width:1320px) {
+  .contact-main {font-size:33px}
+}
+@media (min-width:1322px) {
+  .featured-card .visual-art::after {font-size:149px}
+}
+@media (min-width:1328px) {
+  .journey-tile strong {font-size:52px}
+  .case-hero-visual .visual-art::after {font-size:109px}
+}
+@media (min-width:1341px) {
+  .ticker-track {font-size:27px}
+}
+@media (min-width:1353px) {
+  .hero__statement {font-size:17px}
+}
+@media (min-width:1356px) {
+  .featured-bottom h3 {font-size:48px}
+}
+@media (min-width:1361px) {
+  .contact-main {font-size:35px}
+  .project-card .visual-art::after {font-size:70px}
+}
+@media (min-width:1384px) {
+  .hero .hero__title {font-size:80px}
+}
+@media (min-width:1392px) {
+  .ticker-track {font-size:28px}
+}
+@media (min-width:1397px) {
+  .featured-card .visual-art::after {font-size:157px}
+}
+@media (min-width:1398px) {
+  .visual-art::after {font-size:128px}
+}
+@media (min-width:1405px) {
+  .case-hero-visual .visual-art::after {font-size:114px}
+}
+@media (min-width:1416px) {
+  .featured-bottom h3 {font-size:50px}
+}
+@media (min-width:1444px) {
+  .ticker-track {font-size:29px}
+  .contact-main {font-size:36px}
+  .project-card .visual-art::after {font-size:72px}
+}
+@media (min-width:1449px) {
+  .about-main h2 {font-size:81px}
+}
+@media (min-width:1450px) {
+  .hero .hero__title {font-size:84px}
+  .chapter-copy h2 {font-size:80px}
+  .intro-block h2 {font-size:83px}
+  .featured-section h2 {font-size:83px}
+  .work-section h2 {font-size:83px}
+  .worlds-section h2 {font-size:83px}
+  .journey-section h2 {font-size:83px}
+  .featured-bottom h3 {font-size:51px}
+  .world h3 {font-size:90px}
+  .journey-tile strong {font-size:53px}
+  .contact-main {font-size:37px}
+  .visual-art::after {font-size:134px}
+  .featured-card .visual-art::after {font-size:164px}
+  .project-card .visual-art::after {font-size:74px}
+  .case-hero-visual .visual-art::after {font-size:119px}
+}
+@media (min-width:1456px) {
+  .chapter-copy h2 {font-size:81px}
+}
+@media (min-width:1480px) {
+  .about-main h2 {font-size:83px}
+}
+@media (min-width:1495px) {
+  .ticker-track {font-size:30px}
+}
+@media (min-width:1520px) {
+  .hero .hero__title {font-size:89px}
+}
+@media (min-width:1526px) {
+  .project-card .visual-art::after {font-size:78px}
+}
+@media (min-width:1534px) {
+  .case-hero-visual .visual-art::after {font-size:125px}
+}
+@media (min-width:1535px) {
+  .visual-art::after {font-size:142px}
+}
+@media (min-width:1538px) {
+  .featured-card .visual-art::after {font-size:174px}
+}
+@media (min-width:1609px) {
+  .project-card .visual-art::after {font-size:82px}
+}
+@media (min-width:1627px) {
+  .visual-art::after {font-size:150px}
+}
+@media (min-width:1631px) {
+  .featured-card .visual-art::after {font-size:184px}
+}
+@media (min-width:1691px) {
+  .project-card .visual-art::after {font-size:87px}
+}
+@media (min-width:1719px) {
+  .visual-art::after {font-size:159px}
+}
+@media (min-width:1725px) {
+  .featured-card .visual-art::after {font-size:195px}
+}
+@media (min-width:1794px) {
+  .project-card .visual-art::after {font-size:92px}
+}
+@media (min-width:1822px) {
+  .visual-art::after {font-size:168px}
+}
+@media (min-width:1828px) {
+  .featured-card .visual-art::after {font-size:207px}
+}
+@media (min-width:1897px) {
+  .project-card .visual-art::after {font-size:97px}
+}
+@media (min-width:1925px) {
+  .visual-art::after {font-size:175px}
+}
+@media (min-width:1941px) {
+  .featured-card .visual-art::after {font-size:219px}
+}
+@media (min-width:2053px) {
+  .featured-card .visual-art::after {font-size:230px}
+}
+/* END GENERATED EN STEPS */
+
+/* Case phase label: when it wraps, an inline box with cloned padding keeps the padding equal on each line
+   (an inline-block would stretch to the full width while its text stays shorter). */
+.case-phase {display:inline;-webkit-box-decoration-break:clone;box-decoration-break:clone;line-height:3}
+/* Wrapping chips: centred text keeps the padding equal on both sides of the longest line. */
+.case-meta span,.case-stack span,.about-badges span {text-align:center}
+
+/* Rule 3f: where a heading's minimum size would not fit its column, the layout changes instead of the type
+   shrinking (widths from tests/fit_probe.py). */
+/* "What I do": the [01 / WHAT I DO] label sits above the heading, as in the other sections, and the discipline list
+   goes under the heading, so the heading gets the full width and matches the other section titles (a two-column
+   layout holds at most 72 px against their 83). */
+@media (min-width:801px) {
+  .intro-block {grid-template-columns:minmax(0,1fr);row-gap:22px}
+}
+/* World cards: one column at every width, so every world title gets the full-width size. */
+.worlds-grid {grid-template-columns:minmax(0,1fr)}
+.world,.world-three {grid-column:auto}
+@media (min-width:801px) and (max-width:1071px) {
+  /* featured cards in one column */
+  .featured-card:nth-child(n) {grid-column:span 12}
+}
+
+/* At its 12 px floor the vertical note is wider than at 8 px: the bottom label row ends before the note's column. */
+.hero__image-label {right:36px}
+
+/* Contact section on lime: outline buttons in the dark ink, with a visible hover; the lime focus ring would
+   vanish on lime, so it is dark here. */
+.contact-section .button-outline {color:#11120b;border-color:#11120b;background:transparent}
+.contact-section .button-outline:hover,.contact-section .button-outline:focus-visible {background:#11120b;color:var(--acid);border-color:#11120b}
+.contact-section .button-outline:active {background:#2c310f}
+.contact-section :is(a,button):focus-visible {outline-color:#11120b}
+/* The lime button is a dark filled button on lime; the hint text is dark olive (#2c310f on #d9ff29 is about 12:1). */
+.contact-section .button-lime {background:#11120b;color:var(--acid);border-color:#11120b}
+.contact-section .button-lime:hover,.contact-section .button-lime:focus-visible {background:#2c310f;color:#edff8a;border-color:#2c310f}
+.contact-section .button-lime:active {background:#3a4114}
+.contact-section .contact-hint {color:#2c310f}
+
+/* Featured-card top labels: a dark chip keeps them readable over bright images. */
+.featured-top > span {background:#07070bc7;padding:4px 7px;border-radius:3px;backdrop-filter:blur(6px)}
+
+
+/* Modal header: the close button stays whole (EN/RU/UK labels); the eyebrow wraps instead. */
+.modal-topline {gap:12px}
+.modal-topline > span {min-width:0}
+.modal-topline button {flex:none;white-space:nowrap}
+
+/* Card glyphs break only at spaces; a long word runs past the card edge and .visual-art clips it. On RTL pages the
+   glyph keeps left-to-right direction, so the clipped part is the end of the word, not its start. */
+html[dir=rtl] .visual-art::after {direction:ltr}

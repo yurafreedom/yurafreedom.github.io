@@ -1,0 +1,29 @@
+/* RU / UK typography for the 52 case pages and the 7 editorial pages (detail.css).
+   Keyed on each element's own language; English blocks (lang="en") keep the detail.css stacks.
+   Sizes are px per step: base, 768, 1024, 1440. */
+
+@font-face {font-family:'EN Arrows Mono';src:local('Menlo'),local('Menlo-Regular'),local('Consolas'),local('DejaVu Sans Mono'),local('Liberation Mono');unicode-range:U+2190-21FF}
+
+:lang(ru), :lang(uk) {--font:'Golos Text',system-ui,sans-serif;--display:'Oswald',system-ui,sans-serif;--mono:'EN Arrows Mono','JetBrains Mono',monospace}
+:lang(en) {--font:'Space Grotesk',system-ui,sans-serif;--display:'Syne',system-ui,sans-serif;--mono:'DM Mono',monospace}
+:where(:lang(ru) > [lang="en"], :lang(uk) > [lang="en"]) {font-family:var(--font)}
+/* The untranslated category inside the RU/UK eyebrow keeps the EN mono stack. */
+.eyebrow > [lang="en"] {font-family:var(--mono)}
+/* The header nav inherits the mono font of .top on EN. */
+.top > nav[lang="en"] {font-family:var(--mono)}
+
+/* title: case-page section headings once translated (sentence case: line-height ≥ 1.232).
+   EN: clamp(1.8rem,4.2vw,4.1rem) Syne 760 (cap ≈ 0.645 em). Steps keep the RU/UK cap height at 90–115%
+   of EN at every width; edges 600 and 851 come from detail.css, 1064 and 1329 are added for the fluid range. */
+.section h2:lang(ru), .section h2:lang(uk) {font-weight:500;font-size:23px;line-height:29px;letter-spacing:0;hyphens:manual}
+
+/* Labels and small text: EN px with floors (small 13, mono label 12) */
+.eyebrow:lang(ru), .eyebrow:lang(uk),
+.language-switch:lang(ru), .language-switch:lang(uk) {font-size:12px;line-height:16px}
+.translation-notice:lang(ru), .translation-notice:lang(uk) {font-size:13px;line-height:17px}
+.footer__legal strong:lang(ru), .footer__legal strong:lang(uk) {font-size:13px;font-weight:600}
+
+@media (min-width:600px) {.section h2:lang(ru), .section h2:lang(uk) {font-size:26px;line-height:33px}}
+@media (min-width:851px) {.section h2:lang(ru), .section h2:lang(uk) {font-size:32px;line-height:40px}}
+@media (min-width:1064px) {.section h2:lang(ru), .section h2:lang(uk) {font-size:40px;line-height:50px}}
+@media (min-width:1329px) {.section h2:lang(ru), .section h2:lang(uk) {font-size:51px;line-height:63px}}

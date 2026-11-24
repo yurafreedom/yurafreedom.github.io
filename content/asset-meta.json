@@ -1,0 +1,47 @@
+{
+  "hero-reference.webp": {
+    "width": 1300,
+    "height": 756,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "jewelry.webp": {
+    "width": 1240,
+    "height": 1166,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "training-attendance.webp": {
+    "width": 3792,
+    "height": 2678,
+    "variants": []
+  },
+  "velor-alt.webp": {
+    "width": 1120,
+    "height": 1400,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "velor-hero.webp": {
+    "width": 1120,
+    "height": 1400,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "winter-fashion.webp": {
+    "width": 1120,
+    "height": 1400,
+    "variants": [
+      480,
+      768
+    ]
+  }
+}

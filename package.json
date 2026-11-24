@@ -1,0 +1,14 @@
+{
+  "name": "yurii-portfolio-v4",
+  "private": true,
+  "version": "4.0.0-work-in-progress",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "build:strict": "npm run i18n:check && npm run build && npm run seo:check",
+    "i18n:check": "node scripts/i18n-check.mjs",
+    "seo:check": "node scripts/seo-check.mjs",
+    "link:check": "node scripts/link-check.mjs"
+  }
+}

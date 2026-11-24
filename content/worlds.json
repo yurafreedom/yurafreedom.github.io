@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hughlings",
+    "head": "INDEPENDENT BRAND WORLD",
+    "title": "HUGHLINGS.",
+    "meta": "BRAND / WEB / VISION",
+    "url": "/hughlings/",
+    "tone": "one"
+  },
+  {
+    "id": "document-studio",
+    "head": "B2B SERVICE POSITIONING",
+    "title": "DOCUMENT AI.",
+    "meta": "SERVICES / AI / AUTOMATION",
+    "url": "work/document-studio/",
+    "tone": "two"
+  },
+  {
+    "id": "bewell",
+    "head": "LIFECYCLE EMAIL CASE",
+    "title": "BEWELL ALERT.",
+    "meta": "EMAIL / KLAVIYO / CONTENT",
+    "url": "https://sachenkolabs.tech/BeWell-email-portofolio/index.html",
+    "tone": "three"
+  },
+  {
+    "id": "metaleader",
+    "head": "EDUCATION EXPERIENCE",
+    "title": "METALEADER.",
+    "meta": "ACADEMY / PROGRAMS / WEB",
+    "url": "https://metaleaderua.weblium.site/",
+    "tone": "one"
+  },
+  {
+    "id": "engineering-portfolio",
+    "head": "FIRST ENGINEERING SITE",
+    "title": "ENGINEERING v1.",
+    "meta": "BACKEND / AI / RECOVERY",
+    "url": "https://sachenkolabs.tech/yurii-engineering-portfolio/",
+    "tone": "two"
+  },
+  {
+    "id": "sachyur",
+    "head": "ARCHIVE / EARLY WORK",
+    "title": "FRONTEND ARCHIVE.",
+    "meta": "FRONTEND / 2019–2020",
+    "url": "https://sachenkolabs.tech/sachyur_portfolio/dist/",
+    "tone": "three"
+  }
+]

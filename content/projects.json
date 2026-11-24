@@ -1,0 +1,2084 @@
+[
+  {
+    "id": "ai-product-campaign",
+    "title": "VÉLOR / AI Product Advertising",
+    "eyebrow": "AI VISUAL ART / SPEC CAMPAIGN",
+    "category": "visual",
+    "featured": true,
+    "year": "2026",
+    "stage": "Independent concept / spec work",
+    "tone": "cream",
+    "glyph": "VÉLOR",
+    "summary": "An art-directed fragrance campaign across hero, three-quarter and macro-inspired product compositions, built as AI visual portfolio work.",
+    "challenge": "Create a luxury product campaign with careful material rendering and consistent package identity across frames.",
+    "approach": [
+      "Developed detailed prompts for lighting, lens, geometry, typography and camera perspectives.",
+      "Produced and selected a coherent visual series and assessed product consistency.",
+      "Defined further macro, wide and motion directions for the campaign."
+    ],
+    "outcome": "Selected AI-generated sample campaign images; not a paid client project or real retail product.",
+    "stack": [
+      "AI Image Generation",
+      "Prompt Design",
+      "Product Art Direction",
+      "Visual QA"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Visual production services",
+        "url": "ai-visual-production.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Original fictional product concept; do not imply sponsorship or association with a real fragrance brand.",
+    "gallery": [
+      "VÉLOR hero",
+      "Bottle details",
+      "Campaign variations"
+    ],
+    "images": [
+      "assets/velor-hero.webp",
+      "assets/velor-alt.webp"
+    ]
+  },
+  {
+    "id": "ai-fashion-jewelry",
+    "title": "Fashion & High Jewelry / AI Editorials",
+    "eyebrow": "AI VISUAL ART / EDITORIAL",
+    "category": "visual",
+    "featured": true,
+    "year": "2026",
+    "stage": "Independent concept / spec work",
+    "tone": "magenta",
+    "glyph": "EDITORIAL",
+    "summary": "Experimental fashion, beauty and jewelry editorials exploring visual identity, materials, framing and consistency.",
+    "challenge": "Develop visually coherent high-end campaign frames without claiming they are physical studio photographs.",
+    "approach": [
+      "Art-directed lighting, styling, skin, material realism and refined compositions.",
+      "Built controlled prompt variations for visual series and campaign deliverables.",
+      "Reviewed details and identified areas where AI-generated material needs correction."
+    ],
+    "outcome": "AI editorial concept images available; not commissioned commercial photography.",
+    "stack": [
+      "Fashion Visuals",
+      "Beauty",
+      "High Jewelry",
+      "AI Image Generation"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Visual production services",
+        "url": "ai-visual-production.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Spec concepts; product photography and real client partnerships are not claimed.",
+    "gallery": [
+      "High jewelry editorial",
+      "Winter fashion portrait"
+    ],
+    "images": [
+      "assets/jewelry.webp",
+      "assets/winter-fashion.webp"
+    ]
+  },
+  {
+    "id": "ai-video-workflow",
+    "title": "AI Cinematic Video / Production Practice",
+    "eyebrow": "AI VIDEO / IN DEVELOPMENT",
+    "category": "visual",
+    "featured": false,
+    "year": "2026",
+    "stage": "Active learning & production tests",
+    "tone": "violet",
+    "glyph": "FILM / AI",
+    "summary": "New creative specialization in AI-generated motion: image-to-video, short-form brand video and repeatable shot production.",
+    "challenge": "Make image sequences more consistent across motion, product identity and campaign direction.",
+    "approach": [
+      "Study and compare Midjourney, Nano Banana, Kling, Veo and Higgsfield for different shot needs.",
+      "Define repeatable brief → reference → initial frame → motion → QA workflows.",
+      "Prepare future video case studies with explicit original/spec labels."
+    ],
+    "outcome": "Practice in progress; no finished client campaign or guaranteed cross-frame identity is claimed.",
+    "stack": [
+      "Higgsfield",
+      "Kling",
+      "Veo",
+      "Midjourney",
+      "Nano Banana"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "AI video and visual services",
+        "url": "ai-visual-production.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Do not label experimental shots as completed commercial client campaigns.",
+    "gallery": [
+      "Shot planning",
+      "Motion experiments",
+      "Consistency QA"
+    ],
+    "images": []
+  },
+  {
+    "id": "synology-nas-pilot",
+    "title": "Synology DS925+ / NAS Setup Service Pilot",
+    "eyebrow": "SYSTEMS / SERVICE PILOT",
+    "category": "automation",
+    "featured": false,
+    "year": "2026",
+    "stage": "Service in preparation / not completed deployment",
+    "tone": "blue",
+    "glyph": "NAS / DSM",
+    "summary": "AI-assisted technical runbook for family NAS configuration: storage verification, secure access, accounts, backups and file synchronization.",
+    "challenge": "Audit an already-configured NAS without disrupting existing files, then implement the missing items safely.",
+    "approach": [
+      "Prepared a 15-page AI-assisted remote-session runbook.",
+      "Mapped existing RAID/Btrfs setup, 2FA, permission groups, Synology Drive, Photos and backups.",
+      "Identified the need to verify current state first and avoid destructive reconfiguration."
+    ],
+    "outcome": "Documentation prepared; no end-to-end successful client NAS implementation is asserted.",
+    "stack": [
+      "Synology DSM",
+      "NAS",
+      "Btrfs",
+      "RAID 1",
+      "Backups",
+      "Remote Access"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "NAS guided setup / scope and policy",
+        "url": "synology-service.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Do not publish client identifiers, IPs, account details, unverified third-party packages or raw runbook.",
+    "gallery": [
+      "Scope & risk map",
+      "Remote work plan",
+      "Acceptance criteria"
+    ],
+    "images": []
+  },
+  {
+    "id": "document-ai",
+    "title": "Document Intelligence Engine",
+    "eyebrow": "REAL-WORLD ENGINEERING",
+    "category": "ai",
+    "featured": false,
+    "year": "2026",
+    "stage": "Client work · anonymized",
+    "tone": "violet",
+    "glyph": "OCR / AI",
+    "summary": "A multimodal processing pipeline for invoices, scans, photos and handwritten documents, with structured extraction and human review.",
+    "challenge": "Property operations needed a single workflow for documents that arrived in inconsistent formats and quality.",
+    "approach": [
+      "Designed a Python / FastAPI ingestion API with PDF parsing, OCR and vision-based fallbacks.",
+      "Structured classification and extracted fields for validation instead of relying on free-form text.",
+      "Added a correction/review path for uncertain results and container-based deployment."
+    ],
+    "outcome": "A demonstrable document-processing workflow. Internal sample accuracy reports are not presented as verified production performance.",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "OCR",
+      "Vision AI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "repos": [
+      "ocr-ai-engine-archive"
+    ],
+    "links": [],
+    "privacy": "Private client repository; client name intentionally omitted.",
+    "gallery": [
+      "Input formats",
+      "Extraction pipeline",
+      "Review & validation"
+    ]
+  },
+  {
+    "id": "sitebrain",
+    "title": "SiteBrain",
+    "eyebrow": "DOCUMENTS / KNOWLEDGE",
+    "category": "ai",
+    "featured": true,
+    "year": "2026",
+    "stage": "Demo implementation",
+    "tone": "lime",
+    "glyph": "SITE / BRAIN",
+    "summary": "Evidence-linked AI knowledge base for construction paperwork. Answers reference the page and passage where the evidence appears.",
+    "challenge": "Make varied construction documents genuinely searchable and answerable without losing the supporting evidence.",
+    "approach": [
+      "Classify and extract PDFs, scans and images into typed document schemas.",
+      "Combine vector retrieval with Postgres full-text search and structure-aware table handling.",
+      "Return provenance links to page-level text and bounding boxes."
+    ],
+    "outcome": "Source implementation exists in a private GitHub repository. A public production demo is planned, not yet deployed; current preview is a documented case study.",
+    "stack": [
+      "FastAPI",
+      "PyMuPDF",
+      "pdfplumber",
+      "pgvector",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "repos": [
+      "sitebrain"
+    ],
+    "links": [
+      {
+        "label": "SiteBrain · Full case story",
+        "url": "sitebrain-case.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Private repository; no publicly verified running deployment.",
+    "gallery": [
+      "Document classification",
+      "Hybrid retrieval",
+      "Cited answers"
+    ]
+  },
+  {
+    "id": "document-studio",
+    "title": "Document AI / Service Studio",
+    "eyebrow": "SERVICE EXPERIENCE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Service website · verification needed",
+    "tone": "blue",
+    "glyph": "DOC / OPS",
+    "summary": "Dedicated international-facing landing experience for AI document automation services and a separate technical offering.",
+    "challenge": "Translate a technical OCR pipeline into a clear and credible offer for international buyers.",
+    "approach": [
+      "Developed a Vite-based marketing site with a service-oriented narrative.",
+      "Organized technical benefits and consultation pathways.",
+      "Separated service presentation from the private customer implementation."
+    ],
+    "outcome": "An existing web property and separate source repository; deployment origin needs reconciliation.",
+    "stack": [
+      "TypeScript",
+      "Vite",
+      "Cloudflare Pages",
+      "Web UX"
+    ],
+    "repos": [
+      "ai-ocr-sysytems-site"
+    ],
+    "links": [
+      {
+        "label": "Freelancehunt showcase",
+        "url": "https://freelancehunt.com/showcase/work/document-automation-lending-b2b-uslugi/2092929.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Do not imply the domain and repo are the same deployment until verified.",
+    "gallery": [
+      "Offer architecture",
+      "UX narrative",
+      "Conversion flow"
+    ]
+  },
+  {
+    "id": "intelligence-radar",
+    "title": "Evidence Intelligence Radar",
+    "eyebrow": "RESEARCH AUTOMATION",
+    "category": "ai",
+    "featured": false,
+    "year": "2026",
+    "stage": "Private prototype",
+    "tone": "magenta",
+    "glyph": "RADAR",
+    "summary": "Source-connected research intelligence: ingest, deduplicate, verify, rank and compile updates into audit-ready digests.",
+    "challenge": "Monitor many evidence sources without flooding users with duplicates or unsupported summaries.",
+    "approach": [
+      "Implemented incremental connectors for scientific and public-data sources.",
+      "Added traceable provenance, deduplication, budget gates and operator views.",
+      "Designed private Telegram digest delivery with credential-gated validation."
+    ],
+    "outcome": "A documented engineering prototype with phase-specific checks; full live integrations are conditional on credentials.",
+    "stack": [
+      "Python",
+      "PostgreSQL",
+      "Telegram",
+      "Research APIs",
+      "CI"
+    ],
+    "repos": [
+      "cortexmd-intelligence"
+    ],
+    "links": [],
+    "privacy": "Public title and client context require review before launch.",
+    "gallery": [
+      "Ingestion matrix",
+      "Verification stages",
+      "Digest delivery"
+    ]
+  },
+  {
+    "id": "copislice",
+    "title": "COPISLICE / Web Application",
+    "eyebrow": "PERSONAL SOFTWARE",
+    "category": "product",
+    "featured": false,
+    "year": "2026",
+    "stage": "Private software prototype",
+    "tone": "lime",
+    "glyph": "COPISLICE",
+    "summary": "A personal evidence ledger combining tasks, calendar, finances, records and versioned history into one navigable product.",
+    "challenge": "Build a calm, traceable personal operating system without reducing unrelated parts of life to a misleading single score.",
+    "approach": [
+      "Designed modular information architecture across tasks, accounts, documents and loan records.",
+      "Implemented versioned snapshots, security-conscious access patterns and retention controls.",
+      "Expanded interface and underlying data model through iterative reviews."
+    ],
+    "outcome": "Single-user web prototype with an available walkthrough video. This is distinct from the macOS port and the SafetyMap demo.",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Python",
+      "PostgreSQL",
+      "Product UX"
+    ],
+    "repos": [
+      "COPISLICE"
+    ],
+    "links": [
+      {
+        "label": "Web product demo video",
+        "url": "https://youtu.be/KfvosPquqJY",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Private repo; no hosted public application.",
+    "gallery": [
+      "Web workspace",
+      "Calendar and records",
+      "Interaction demo"
+    ],
+    "role": "Web product engineering & interaction design"
+  },
+  {
+    "id": "copislice-swift",
+    "title": "COPISLICE / Swift for macOS",
+    "eyebrow": "NATIVE EXPERIMENT",
+    "category": "product",
+    "featured": false,
+    "year": "2026",
+    "stage": "Development branch",
+    "tone": "blue",
+    "glyph": "SWIFT",
+    "summary": "Native Swift/macOS exploration extending the COPISLICE product beyond a browser-based interface.",
+    "challenge": "Explore desktop-specific interaction and responsiveness for a multi-area personal system.",
+    "approach": [
+      "Investigated a native UI and interaction model.",
+      "Worked on performance, UI behavior and architectural portability."
+    ],
+    "outcome": "An experimental native port, not a separate shipped product.",
+    "stack": [
+      "Swift",
+      "macOS",
+      "Desktop UX"
+    ],
+    "repos": [
+      "copislice-swift"
+    ],
+    "links": [],
+    "privacy": "Private repository; project status should be presented as experimental.",
+    "gallery": [
+      "Native UI",
+      "macOS interactions",
+      "Performance testing"
+    ],
+    "role": "Swift/macOS implementation and performance exploration"
+  },
+  {
+    "id": "safetymap",
+    "title": "SafetyMap / Independent Map Demo",
+    "eyebrow": "LOCATION / DATA",
+    "category": "product",
+    "featured": false,
+    "year": "2026",
+    "stage": "Prototype",
+    "tone": "violet",
+    "glyph": "MAP / DATA",
+    "summary": "A map-first prototype designed to organize documented city incidents and associated evidence.",
+    "challenge": "Make spatially distributed reports understandable and explorable.",
+    "approach": [
+      "Designed a geographic browsing structure for documented incidents.",
+      "Structured records for map presentation and follow-up exploration."
+    ],
+    "outcome": "Independent geospatial demo/prototype. It is not a module of the COPISLICE web product and is not presented as a public safety authority.",
+    "stack": [
+      "Python",
+      "Maps",
+      "Data Visualization"
+    ],
+    "repos": [
+      "copislice-safetymap"
+    ],
+    "links": [],
+    "privacy": "Avoid implying real-time verified public safety coverage.",
+    "gallery": [
+      "Interactive map demo",
+      "Incident detail",
+      "Source attribution"
+    ],
+    "role": "Separate prototype design and development"
+  },
+  {
+    "id": "sorbium",
+    "title": "Sorbium / Media to Reports",
+    "eyebrow": "TELEGRAM AUTOMATION",
+    "category": "automation",
+    "featured": false,
+    "year": "2026",
+    "stage": "Private project",
+    "tone": "blue",
+    "glyph": "A/V → PDF",
+    "summary": "Telegram-driven transcription workflow converting audio and video inputs into structured PDF reports.",
+    "challenge": "Reduce repetitive transcription and report-assembly work for media inputs.",
+    "approach": [
+      "Designed bot and worker separation for long-running processing.",
+      "Connected media transcription to report generation."
+    ],
+    "outcome": "Code and deployment audit exist; live production availability is not confirmed.",
+    "stack": [
+      "Telegram",
+      "Python",
+      "Transcription",
+      "PDF",
+      "Workers"
+    ],
+    "repos": [
+      "sorbium"
+    ],
+    "links": [],
+    "privacy": "Private code and hosting.",
+    "gallery": [
+      "Submission",
+      "Transcription",
+      "Report output"
+    ]
+  },
+  {
+    "id": "vendoru",
+    "title": "Multi-Marketplace Product Data",
+    "eyebrow": "ECOMMERCE AI",
+    "category": "automation",
+    "featured": false,
+    "year": "2026",
+    "stage": "Client work · approval required",
+    "tone": "lime",
+    "glyph": "DATA / FEEDS",
+    "summary": "A modular product-card generation workflow spanning marketplace sources, attribute extraction and export-ready feeds.",
+    "challenge": "Unify product information from inconsistent storefronts and marketplaces.",
+    "approach": [
+      "Built DOM-based extraction adapters and normalization stages.",
+      "Added AI-assisted attribute extraction and marketplace-specific feed logic."
+    ],
+    "outcome": "Project case pending explicit approval of scope, claims and materials.",
+    "stack": [
+      "Python",
+      "Web Parsing",
+      "LLM",
+      "Marketplace Feeds"
+    ],
+    "repos": [],
+    "links": [],
+    "privacy": "No client identity, source URLs or commercial metrics should be exposed.",
+    "gallery": [
+      "Data sources",
+      "Attribute mapping",
+      "Feed delivery"
+    ]
+  },
+  {
+    "id": "sendpulse",
+    "title": "Telegram → SendPulse",
+    "eyebrow": "INTEGRATION SYSTEM",
+    "category": "automation",
+    "featured": false,
+    "year": "2025–26",
+    "stage": "Engineering case",
+    "tone": "magenta",
+    "glyph": "TG / API",
+    "summary": "An automated contact workflow integrating Telegram data processing with email-marketing synchronization.",
+    "challenge": "Replace repeated manual contact transfer with a maintainable process.",
+    "approach": [
+      "Integrated Telegram through Telethon and persistent session handling.",
+      "Added extraction, validation and configurable filtering.",
+      "Connected SendPulse API with logging and operational documentation."
+    ],
+    "outcome": "Manual synchronization was turned into a repeatable server-side workflow.",
+    "stack": [
+      "Python",
+      "Telethon",
+      "SendPulse API"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/telegram-sendpulse-automation/1965940.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Shown as an anonymized technical case.",
+    "gallery": [
+      "Input stream",
+      "Validation",
+      "Sync & observability"
+    ]
+  },
+  {
+    "id": "meta-capi",
+    "title": "Meta Conversions API Infrastructure",
+    "eyebrow": "TRACKING / ATTRIBUTION",
+    "category": "growth",
+    "featured": false,
+    "year": "2026",
+    "stage": "Implementation / archive",
+    "tone": "blue",
+    "glyph": "CAPI",
+    "summary": "Server-side events and marketing synchronization infrastructure across backend and integration layers.",
+    "challenge": "Improve event-delivery reliability and observability across ad-platform workflows.",
+    "approach": [
+      "Structured event forwarding through Meta Conversions API.",
+      "Built backend and worker components for marketing sync and operational checks."
+    ],
+    "outcome": "Related repositories capture integrations and tracking experiments; measured uplift is not claimed.",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "PHP",
+      "Meta CAPI",
+      "nginx"
+    ],
+    "repos": [
+      "fbcapitracker",
+      "Meta_CAPI_opora_thesource_academy"
+    ],
+    "links": [],
+    "privacy": "Confirm client disclosure permissions before adding logos or screenshots.",
+    "gallery": [
+      "Event mapping",
+      "Delivery API",
+      "Diagnostics"
+    ]
+  },
+  {
+    "id": "batch-smtp",
+    "title": "Batch SMTP Delivery",
+    "eyebrow": "MESSAGE INFRASTRUCTURE",
+    "category": "automation",
+    "featured": false,
+    "year": "2026",
+    "stage": "Private utility",
+    "tone": "violet",
+    "glyph": "SMTP",
+    "summary": "A small Python utility for batched email-sending operations.",
+    "challenge": "Create repeatable delivery steps for a controlled mailing workflow.",
+    "approach": [
+      "Implemented a Python batch-sending utility.",
+      "Organized the workflow for inspection and maintenance."
+    ],
+    "outcome": "Repository available privately; no deliverability statistics have been validated.",
+    "stack": [
+      "Python",
+      "SMTP"
+    ],
+    "repos": [
+      "send_batch_smtp"
+    ],
+    "links": [],
+    "privacy": "Do not expose credentials, recipient lists or customer data.",
+    "gallery": [
+      "Batch setup",
+      "Send workflow",
+      "Operational log"
+    ]
+  },
+  {
+    "id": "play-photon",
+    "title": "Browser Workflow Agent",
+    "eyebrow": "BROWSER AUTOMATION",
+    "category": "automation",
+    "featured": false,
+    "year": "2026",
+    "stage": "Private engineering tool",
+    "tone": "lime",
+    "glyph": "PLAY / BOT",
+    "summary": "A Playwright and Fastify automation tool with browser profiles intentionally kept local.",
+    "challenge": "Make browser-driven workflows repeatable while separating code from local session data.",
+    "approach": [
+      "Built browser automation logic with Playwright.",
+      "Separated runtime profiles from version-controlled source."
+    ],
+    "outcome": "A documented private automation prototype.",
+    "stack": [
+      "Playwright",
+      "TypeScript",
+      "Fastify"
+    ],
+    "repos": [
+      "play-photon-x-bot"
+    ],
+    "links": [],
+    "privacy": "Do not publish automation targets, profiles or session data.",
+    "gallery": [
+      "Browser steps",
+      "Execution loop",
+      "Guardrails"
+    ]
+  },
+  {
+    "id": "namegen",
+    "title": "Naming Intelligence Tool",
+    "eyebrow": "BRAND / DATA",
+    "category": "automation",
+    "featured": false,
+    "year": "2026",
+    "stage": "Research tool",
+    "tone": "magenta",
+    "glyph": "NAME / GEN",
+    "summary": "Large-scale name generation combined with local trademark screening and evidence-rich shortlist reports.",
+    "challenge": "Go beyond purely creative naming by filtering against known trademark data while showing coverage gaps.",
+    "approach": [
+      "Generated seeded batches with phonetic and structural rules.",
+      "Implemented RED/AMBER/GREEN screening against specified local datasets.",
+      "Documented that GREEN is not a legal clearance or current global registry search."
+    ],
+    "outcome": "Reproducible candidate screening with explicit source and coverage limitations.",
+    "stack": [
+      "Python",
+      "Data Pipelines",
+      "Trademark Data",
+      "Reporting"
+    ],
+    "repos": [
+      "namegen"
+    ],
+    "links": [],
+    "privacy": "Legal review remains necessary before brand adoption.",
+    "gallery": [
+      "Generation",
+      "Screening",
+      "Shortlist"
+    ]
+  },
+  {
+    "id": "allegro",
+    "title": "Allegro Analyst Calculator",
+    "eyebrow": "FRONTEND / DATA",
+    "category": "product",
+    "featured": false,
+    "year": "2026",
+    "stage": "Technical exercise",
+    "tone": "blue",
+    "glyph": "CALC",
+    "summary": "A React-based calculator and training interface built around a marketplace sales-analyst test scenario.",
+    "challenge": "Turn analytical requirements into a responsive, understandable interface.",
+    "approach": [
+      "Built the interface in React and Vite.",
+      "Used Zustand for controlled interaction state."
+    ],
+    "outcome": "Technical exercise, not a commissioned product.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Zustand"
+    ],
+    "repos": [
+      "allegro-calculator"
+    ],
+    "links": [
+      {
+        "label": "Marketplace sales-analyst take-home",
+        "url": "allegro-case.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Built as personal practice on a private company’s sales-analyst test; not affiliated with Allegro and not a commissioned product.",
+    "gallery": [
+      "Inputs",
+      "Calculations",
+      "Results"
+    ]
+  },
+  {
+    "id": "hughlings",
+    "title": "Hughlings / Studio Website",
+    "eyebrow": "DIGITAL PRESENCE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Public website source",
+    "tone": "magenta",
+    "glyph": "HUGHLINGS",
+    "summary": "An original web presence with a visual system, interaction code and a dedicated domain.",
+    "challenge": "Bring a cohesive digital identity into a fast, responsive public-facing website.",
+    "approach": [
+      "Built a static HTML/CSS/JavaScript site with branded motion.",
+      "Organized responsive components and site assets."
+    ],
+    "outcome": "Public repository with a configured custom domain.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Brand UI"
+    ],
+    "repos": [
+      "hughlings-site"
+    ],
+    "links": [
+      {
+        "label": "Hughlings / GNB founder story",
+        "url": "hughlings-gnb.html",
+        "kind": "case"
+      },
+      {
+        "label": "Hughlings website",
+        "url": "/hughlings/",
+        "kind": "live"
+      },
+      {
+        "label": "GNB pitch",
+        "url": "https://youtu.be/9swVuFZNwxM",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Review brand attribution and ownership language.",
+    "gallery": [
+      "Homepage",
+      "Typography system",
+      "Responsive states"
+    ]
+  },
+  {
+    "id": "realizacje",
+    "title": "Realizacje / Interactive Gallery",
+    "eyebrow": "FRONTEND DESIGN",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Public demo",
+    "tone": "violet",
+    "glyph": "REALIZACJE",
+    "summary": "A compact portfolio-tab implementation translated from an existing design mockup.",
+    "challenge": "Reproduce a visual layout faithfully as a reusable static gallery.",
+    "approach": [
+      "Implemented structure, styles and gallery behavior in plain web technologies.",
+      "Kept the demo dependency-free for direct hosting."
+    ],
+    "outcome": "Browsable source of the reconstructed portfolio gallery.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repos": [
+      "realizacje-demo"
+    ],
+    "links": [
+      {
+        "label": "Public source",
+        "url": "https://github.com/yurafreedom/realizacje-demo"
+      }
+    ],
+    "privacy": "Source is public; visual assets should be rights-checked.",
+    "gallery": [
+      "Grid system",
+      "Hover behavior",
+      "Responsive layout"
+    ]
+  },
+  {
+    "id": "novamebel",
+    "title": "NOVA Mebel / Brand Concept",
+    "eyebrow": "EDITORIAL COMMERCE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Concept / noindex",
+    "tone": "cream",
+    "glyph": "NOVA",
+    "summary": "An editorial furniture website direction emphasizing material, typography and restrained layout.",
+    "challenge": "Give a furniture brand an elevated, visually distinctive online showroom.",
+    "approach": [
+      "Created a multilingual-friendly HTML concept with considered type fallbacks.",
+      "Built a photography-led layout and responsive image handling."
+    ],
+    "outcome": "Concept preview with noindex configuration; not represented as the brand’s live site.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Art Direction"
+    ],
+    "repos": [
+      "novamebel-concept"
+    ],
+    "links": [
+      {
+        "label": "Public source",
+        "url": "https://github.com/yurafreedom/novamebel-concept"
+      }
+    ],
+    "privacy": "Clearly label as uncommissioned concept if applicable.",
+    "gallery": [
+      "Hero / Editorial",
+      "Material palette",
+      "Responsive type"
+    ]
+  },
+  {
+    "id": "sanandr",
+    "title": "SANANDR / Web Experience",
+    "eyebrow": "ARCHITECTURE / WEB",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Concept preview",
+    "tone": "blue",
+    "glyph": "SANANDR",
+    "summary": "One-page construction-brand concept with editorial motion and a Webflow-oriented CMS mapping.",
+    "challenge": "Create a dynamic brand narrative that could later be handed over into Webflow.",
+    "approach": [
+      "Structured a responsive page around sections, project cards and progressive reveals.",
+      "Documented component and content mapping for future CMS integration.",
+      "Designed motion behaviors and interactive before/after patterns."
+    ],
+    "outcome": "A noindex concept intended for review, not a verified production deployment.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Webflow Mapping",
+      "GSAP"
+    ],
+    "repos": [
+      "sanandr-concept-preview"
+    ],
+    "links": [
+      {
+        "label": "Public source",
+        "url": "https://github.com/yurafreedom/sanandr-concept-preview"
+      }
+    ],
+    "privacy": "Client work must not be described as approved/live without confirmation.",
+    "gallery": [
+      "Cinematic hero",
+      "CMS mapping",
+      "Project showcase"
+    ]
+  },
+  {
+    "id": "thefemmily",
+    "title": "The Femmily / Landing Flow",
+    "eyebrow": "LANDING EXPERIENCE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Private landing",
+    "tone": "magenta",
+    "glyph": "FEMMILY",
+    "summary": "Static landing page and post-conversion thank-you experience.",
+    "challenge": "Build a focused entry point with a coherent next step after signup or conversion.",
+    "approach": [
+      "Created frontend landing and confirmation pages.",
+      "Prepared lightweight static deployment structure."
+    ],
+    "outcome": "Implementation files available in a private repository.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "Landing Pages"
+    ],
+    "repos": [
+      "thefemmily"
+    ],
+    "links": [],
+    "privacy": "Permission required for branded public presentation.",
+    "gallery": [
+      "Landing hero",
+      "Conversion section",
+      "Thank-you view"
+    ]
+  },
+  {
+    "id": "consensu",
+    "title": "Consensu / Product Dashboard",
+    "eyebrow": "SaaS INTERFACE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Interactive prototype",
+    "tone": "lime",
+    "glyph": "DASH / UI",
+    "summary": "Interactive dashboard prototype exploring product workflow, roles and information hierarchy.",
+    "challenge": "Turn a dense dashboard concept into an inspectable interactive preview.",
+    "approach": [
+      "Assembled a static prototype from a design export.",
+      "Used a client-side React runtime for exploratory interaction."
+    ],
+    "outcome": "Demonstration UI only: state is ephemeral and it is not production-hardened.",
+    "stack": [
+      "React",
+      "JavaScript",
+      "Dashboard UX"
+    ],
+    "repos": [
+      "consensu-archive"
+    ],
+    "links": [
+      {
+        "label": "Public dashboard demo",
+        "url": "https://sachenkolabs.tech/consensu-dashboard-deploy/index.html",
+        "kind": "live"
+      }
+    ],
+    "privacy": "Private client work; show anonymized visuals only if approved.",
+    "gallery": [
+      "Dashboard overview",
+      "Role states",
+      "Information layout"
+    ]
+  },
+  {
+    "id": "bewell",
+    "title": "BeWell Alert / Lifecycle Email System",
+    "eyebrow": "LIFECYCLE MARKETING",
+    "category": "growth",
+    "featured": false,
+    "year": "2025–26",
+    "stage": "Portfolio case · public page",
+    "tone": "cream",
+    "glyph": "16 / EMAILS",
+    "summary": "A structured lifecycle library of 16 HTML emails, an educational guide and automation flows for an ecommerce brand.",
+    "challenge": "Create clear, consistent lifecycle communication from signup through retention.",
+    "approach": [
+      "Organized welcome, cart recovery, post-purchase and education sequences.",
+      "Developed email copy, HTML assembly and Klaviyo automation logic.",
+      "Worked from client-provided visual design and approved messaging."
+    ],
+    "outcome": "An independent, already-designed case site is available. Keep its own visual identity instead of repainting its internal pages to match the master portfolio.",
+    "stack": [
+      "Email HTML",
+      "Klaviyo",
+      "Lifecycle Flows",
+      "Copywriting"
+    ],
+    "repos": [
+      "bewell-portfolio-archive",
+      "bewell-emails",
+      "BeWell-email-portofolio"
+    ],
+    "links": [
+      {
+        "label": "Full visual email case website",
+        "url": "https://sachenkolabs.tech/BeWell-email-portofolio/index.html",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/bewell-alert-lifecycle-email-sistema/2092930.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Credit client-provided design assets accurately.",
+    "gallery": [
+      "16 email lifecycle set",
+      "Flow automation",
+      "Dedicated case website"
+    ],
+    "role": "Lifecycle copy, email HTML, flow logic and Klaviyo setup; original visual design supplied by client"
+  },
+  {
+    "id": "reelsremotion",
+    "title": "ReelsRemotion / Motion Engine",
+    "eyebrow": "GENERATIVE VIDEO SYSTEM",
+    "category": "creative",
+    "featured": true,
+    "year": "2026",
+    "stage": "Production tooling",
+    "tone": "magenta",
+    "glyph": "REELS / 30 FPS",
+    "summary": "Data-driven motion typography and vertical video rendering built with Remotion, TypeScript and a reusable timeline schema.",
+    "challenge": "Make repeatable short-form video production editable as structured data instead of hand-crafted one-off timelines.",
+    "approach": [
+      "Built configurable keyframe animation and 1080×1920 rendering.",
+      "Connected timing, B-roll placements and cinematic typography through a timeline schema.",
+      "Added production notes, QA steps and editorial review artifacts."
+    ],
+    "outcome": "A substantial private motion tooling project with documented rendering and review stages.",
+    "stack": [
+      "Remotion",
+      "React",
+      "TypeScript",
+      "Video Automation",
+      "FFmpeg"
+    ],
+    "repos": [
+      "reelsremotion"
+    ],
+    "links": [],
+    "privacy": "Raw B-roll, music and third-party assets need rights checks before public use.",
+    "gallery": [
+      "Kinetic typography",
+      "Timeline engine",
+      "Editorial QA"
+    ]
+  },
+  {
+    "id": "lunare",
+    "title": "LUNARE / Video Library",
+    "eyebrow": "AI CREATIVE DIRECTION",
+    "category": "creative",
+    "featured": false,
+    "year": "2026",
+    "stage": "Reference library · repository empty",
+    "tone": "violet",
+    "glyph": "LUNARE",
+    "summary": "Visual production direction centered on storyboards, reference frames and advertising-prompt organization.",
+    "challenge": "Consolidate image/video references and shot planning into a coherent brand narrative.",
+    "approach": [
+      "Defined the idea for a reference-frame and storyboard library.",
+      "Gathered visual, motion and prompt directions for future case presentation."
+    ],
+    "outcome": "The linked GitHub repository was empty at audit time; do not yet list it as a working demo.",
+    "stack": [
+      "Creative Direction",
+      "Storyboards",
+      "AI Video"
+    ],
+    "repos": [
+      "lunare-video-library"
+    ],
+    "links": [],
+    "privacy": "Wait for actual site files and permission to use brand assets.",
+    "gallery": [
+      "Visual language",
+      "Shot list",
+      "Production prompts"
+    ]
+  },
+  {
+    "id": "luxury-visuals",
+    "title": "AI Visual Campaign Studies / Creative Lab",
+    "eyebrow": "EDITORIAL / AI",
+    "category": "visual",
+    "featured": false,
+    "year": "2026",
+    "stage": "Spec work / portfolio exploration",
+    "tone": "cream",
+    "glyph": "VISUAL / LAB",
+    "summary": "Controlled visual explorations across fragrance, high jewelry and AI winter-fashion visuals with emphasis on continuity.",
+    "challenge": "Create premium-looking image series while preserving product geometry, typography and fashion identity across angles.",
+    "approach": [
+      "Designed shot-specific prompts, lighting setups and lens logic.",
+      "Explored macro, three-quarter and wide advertising compositions.",
+      "Assessed image consistency rather than presenting unverified commercial assignments."
+    ],
+    "outcome": "Spec portfolio work; still needs curated approved gallery assets.",
+    "stack": [
+      "Art Direction",
+      "Image Generation",
+      "AI product visuals",
+      "QA"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "AI visual production / services",
+        "url": "ai-visual-production.html",
+        "kind": "case"
+      }
+    ],
+    "privacy": "Concept brands and fictional product imagery must be labeled clearly.",
+    "gallery": [
+      "Hero angle",
+      "Macro detail",
+      "Campaign crop"
+    ],
+    "images": [
+      "assets/velor-hero.webp",
+      "assets/jewelry.webp",
+      "assets/winter-fashion.webp"
+    ]
+  },
+  {
+    "id": "google-api",
+    "title": "Google Business Profile / OAuth",
+    "eyebrow": "API ACCESS",
+    "category": "automation",
+    "featured": false,
+    "year": "2025",
+    "stage": "Engineering case",
+    "tone": "blue",
+    "glyph": "OAuth 2",
+    "summary": "Technical review and OAuth integration preparation for a SaaS product seeking Google Business Profile API access.",
+    "challenge": "Prepare a review-ready integration after a previous rejection without assuming account eligibility.",
+    "approach": [
+      "Reviewed integration eligibility, consent screens and OAuth client configuration.",
+      "Prepared technical materials and a product demo for resubmission."
+    ],
+    "outcome": "Prepared a review-ready OAuth integration workflow, documentation and demo for the Google API review process. A client left a verified 5.0/5 review on Upwork. Approval by Google is not claimed.",
+    "stack": [
+      "Google Cloud",
+      "OAuth 2.0",
+      "Google APIs",
+      "SaaS"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "GBP OAuth demonstration",
+        "url": "https://youtu.be/bhTeKu5PyIo",
+        "kind": "video"
+      },
+      {
+        "label": "GBP ACCESS walkthrough",
+        "url": "https://youtu.be/iVczKeR77ms",
+        "kind": "video"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/google-business-profile-api-approval/2069796.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Review all demo frames and code for names, OAuth client IDs, tokens and other third-party confidential information before public embedding.",
+    "gallery": [
+      "Authorization flow",
+      "Demo scenario",
+      "Review materials"
+    ],
+    "role": "API / OAuth implementation, product demo & review documentation",
+    "review": {
+      "score": "5.0 / 5",
+      "date": "Aug 15, 2025 – Nov 6, 2025",
+      "earned": "$80 fixed-price",
+      "quote": "He delivered thorough documentation and a polished demo.",
+      "source": "Upwork client review (owner-provided screenshot)"
+    }
+  },
+  {
+    "id": "magento",
+    "title": "Magento 1.9 / Recovery",
+    "eyebrow": "LEGACY RESCUE",
+    "category": "product",
+    "featured": false,
+    "year": "2026",
+    "stage": "Engineering case",
+    "tone": "cream",
+    "glyph": "M 1.9",
+    "summary": "Recovered a damaged legacy development environment and stabilized critical application failures.",
+    "challenge": "An unstable legacy Magento stack blocked development and reliable testing.",
+    "approach": [
+      "Configured Magento DEV with PHP 7.1, nginx, MariaDB and GitHub-based deployment.",
+      "Traced HTTP 500 failures, redirect loops and cache/OPcache issues.",
+      "Diagnosed and neutralized malicious legacy module code."
+    ],
+    "outcome": "A reproducible DEV setup and a stabilized environment for continued remediation.",
+    "stack": [
+      "Magento",
+      "PHP",
+      "nginx",
+      "MariaDB",
+      "Linux"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/magento-1-9-dev-okruzhenie-stabilizatsiya/2087342.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Engineering case is anonymized.",
+    "gallery": [
+      "Failure mapping",
+      "Environment recovery",
+      "Deployment flow"
+    ]
+  },
+  {
+    "id": "fieldapp",
+    "title": "Legacy Field App / iOS Recovery",
+    "eyebrow": "MOBILE / SYSTEMS",
+    "category": "product",
+    "featured": false,
+    "year": "2026",
+    "stage": "Engineering case",
+    "tone": "blue",
+    "glyph": "iOS",
+    "summary": "Investigation and recovery work on an existing Xamarin/iOS field-work application.",
+    "challenge": "Make an older mobile build and connected service environment understandable and testable.",
+    "approach": [
+      "Inspected the existing Xamarin/iOS build workflow using a remote Mac.",
+      "Traced service integration and simulator behavior."
+    ],
+    "outcome": "A technical recovery and investigation case; production delivery details need further confirmation.",
+    "stack": [
+      "Xamarin.iOS",
+      "Remote macOS",
+      "Azure APIs",
+      "Debugging"
+    ],
+    "repos": [],
+    "links": [],
+    "privacy": "No client identity or sensitive service details.",
+    "gallery": [
+      "Build flow",
+      "Device testing",
+      "Integration diagnostics"
+    ]
+  },
+  {
+    "id": "confidential-saas",
+    "title": "Private Python SaaS / Reliability",
+    "eyebrow": "PRODUCTION BACKEND",
+    "category": "ai",
+    "featured": false,
+    "year": "2026",
+    "stage": "NDA-safe engineering case",
+    "tone": "violet",
+    "glyph": "ASYNC / DB",
+    "summary": "Production-oriented Python backend work across concurrency, transactions, external data and reliability boundaries.",
+    "challenge": "Make complex workflows observable and robust when several services share state and external dependencies.",
+    "approach": [
+      "Worked on async orchestration, failure recovery and transaction boundaries.",
+      "Added validation, structured API interactions and regression-oriented diagnosis."
+    ],
+    "outcome": "Described at architecture level only; no invented uptime or financial metrics.",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "SQLAlchemy"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/confidential-python-saas-reliability/2087336.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Strictly anonymized NDA-safe description.",
+    "gallery": [
+      "Service boundaries",
+      "Data consistency",
+      "Failure recovery"
+    ]
+  },
+  {
+    "id": "metaleader",
+    "title": "MetaLeader / Coaching Academy",
+    "eyebrow": "PUBLISHED PROJECT · SITE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Published project · site",
+    "role": "Website implementation / production technology",
+    "tone": "magenta",
+    "glyph": "META / LEADER",
+    "summary": "Education brand website for a coaching school, connected to two distinct program landing pages.",
+    "challenge": "Build a clear web presence and enrollment paths for related education offers.",
+    "approach": [
+      "Created and implemented the main site presentation.",
+      "Organized navigation and conversion pathways across the school and individual programs."
+    ],
+    "outcome": "Website preview and a published portfolio record are available; exact conversion numbers are not asserted.",
+    "stack": [
+      "Weblium",
+      "Landing Pages",
+      "Responsive UX"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Live school website",
+        "url": "https://metaleaderua.weblium.site/",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/metaleader-glavnaya-shkolyi-kouchinga/2092861.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "metaleader-nlp",
+    "title": "MetaLeader / NLP Practitioner",
+    "eyebrow": "PUBLISHED PROJECT · LANDING",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Published project · landing",
+    "role": "Landing page production / development",
+    "tone": "blue",
+    "glyph": "NLP / COURSE",
+    "summary": "Separate landing page for an NLP practitioner certification offer.",
+    "challenge": "Explain a complex educational product and present a clear enrollment journey.",
+    "approach": [
+      "Structured a distinct course page within the MetaLeader site.",
+      "Implemented program-specific content and conversion sections."
+    ],
+    "outcome": "Live and active: the NLP Practitioner course page is one of two online-course products within the multi-page MetaLeader site.",
+    "stack": [
+      "Weblium",
+      "Responsive Design",
+      "Course Funnel"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Live course page",
+        "url": "https://metaleaderua.weblium.site/nlp-course",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/lending-sertifikatsionnoy-programmyi-nlp-praktik/2092863.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "metaleader-coach",
+    "title": "MetaLeader / Professional Coach",
+    "eyebrow": "PUBLISHED PROJECT · LANDING",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Published project · landing",
+    "role": "Landing page production / development",
+    "tone": "lime",
+    "glyph": "COACH / APC",
+    "summary": "Independent landing page for a professional coaching training program.",
+    "challenge": "Give a second education product its own value proposition and page structure.",
+    "approach": [
+      "Implemented dedicated sections for the coaching offer.",
+      "Maintained a visual connection with the broader education brand."
+    ],
+    "outcome": "Live and active: the Professional Coach program page is one of two online-course products within the multi-page MetaLeader site.",
+    "stack": [
+      "Weblium",
+      "Landing Pages",
+      "Responsive UX"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Live coaching page",
+        "url": "https://metaleaderua.weblium.site/coach-apc",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/lending-programmyi-professionalnyiy-kouch/2092864.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "sachyur",
+    "title": "Early Frontend Portfolio",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2019–2020",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation",
+    "tone": "blue",
+    "glyph": "WEB / ARCHIVE",
+    "summary": "An earlier personal frontend portfolio documenting the beginning of the web development practice.",
+    "challenge": "Organize early work into a personal presentation.",
+    "approach": [
+      "Implemented and deployed the frontend portfolio.",
+      "Preserved it as a historical chapter in the progression toward larger products."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repos": [
+      "sachyur_portfolio"
+    ],
+    "links": [
+      {
+        "label": "Open archived portfolio",
+        "url": "https://sachenkolabs.tech/sachyur_portfolio/dist/",
+        "kind": "live"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "upskill",
+    "title": "UpSkill / Service Landing",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2020",
+    "stage": "Archive · published demo",
+    "role": "Frontend development (design ownership not claimed)",
+    "tone": "lime",
+    "glyph": "UP / SKILL",
+    "summary": "Frontend implementation of an education/service landing page, preserved in the earlier client-work archive.",
+    "challenge": "Translate the provided design into a responsive, usable landing page.",
+    "approach": [
+      "Implemented page structure and responsive styling.",
+      "Prepared the built version for a public preview."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "Responsive UI"
+    ],
+    "repos": [
+      "upskill"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://sachenkolabs.tech/upskill/build/main-block.html",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/upskill-vyorstka-lendinga-servisa-dlya/2092933.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "colease",
+    "title": "coLease / SaaS Management Interface",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2020",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation (design ownership not claimed)",
+    "tone": "violet",
+    "glyph": "CO / LEASE",
+    "summary": "Frontend implementation for a SaaS-style management dashboard.",
+    "challenge": "Translate a complex control-panel layout into a readable interface.",
+    "approach": [
+      "Implemented responsive dashboard screens.",
+      "Worked with data-dense components and interface hierarchy."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Dashboard UI"
+    ],
+    "repos": [
+      "coLease"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://sachenkolabs.tech/coLease/dist/",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/colease-vyorstka-saas-paneli-dlya-upravleniya/2092935.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "forsa",
+    "title": "Forsa / Blockchain Platform",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2020",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation (design ownership not claimed)",
+    "tone": "blue",
+    "glyph": "FOR / SA",
+    "summary": "Frontend implementation for a blockchain-oriented platform.",
+    "challenge": "Deliver a technology-themed interface from the existing design concept.",
+    "approach": [
+      "Implemented page structure and responsive CSS.",
+      "Prepared the interactive demo build."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
+    "repos": [
+      "forsa"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://sachenkolabs.tech/forsa/dist/main-block.html",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/forsa-vyorstka-sayta-blokcheyn-platformyi/2092937.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "feminamed",
+    "title": "FeminaMed / Clinic Website",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2019",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation (design ownership not claimed)",
+    "tone": "magenta",
+    "glyph": "FEMINA / MED",
+    "summary": "Frontend website for a women’s health clinic.",
+    "challenge": "Create a clear and accessible service presentation while respecting supplied visual assets.",
+    "approach": [
+      "Implemented layout and responsive behavior.",
+      "Maintained typography and navigation consistency across sections."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repos": [
+      "feminamed"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://sachenkolabs.tech/feminamed/dist/",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/feminamed-vyorstka-sayta-kliniki-zhenskogo/2092938.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "avangard",
+    "title": "Avangard / Engineering Company",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2019",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation (design ownership not claimed)",
+    "tone": "lime",
+    "glyph": "AVAN / GARD",
+    "summary": "Frontend implementation for an engineering company.",
+    "challenge": "Translate a technical corporate design into consistent web layouts.",
+    "approach": [
+      "Built adaptive content sections.",
+      "Implemented page components and interactions from the supplied visual concept."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repos": [
+      "avangard"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://sachenkolabs.tech/avangard/dist/main-block.html",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/avangard-vyorstka-dlya-inzhenernoy-kompanii/2092940.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "cinarta",
+    "title": "Cinarta / Casting Platform",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2019",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation; source hosted under another GitHub account",
+    "tone": "violet",
+    "glyph": "CIN / ARTA",
+    "summary": "Frontend pages for a casting platform serving film-industry workflows.",
+    "challenge": "Build a multi-section interface for media and professional profiles.",
+    "approach": [
+      "Implemented frontend page layouts and responsive interactions.",
+      "Produced a publicly viewable build for portfolio review."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repos": [
+      "peterlyshak/cinarta_open"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://peterlyshak.github.io/cinarta_open/build/",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/cinarta-vyorstka-kasting-platformyi-dlya-kinoindustrii/2092942.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Repository is hosted under peterlyshak; do not claim entire product or design ownership.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "topline",
+    "title": "Topline / Frontend Project",
+    "eyebrow": "ARCHIVE · PUBLISHED DEMO",
+    "category": "web",
+    "featured": false,
+    "year": "2019",
+    "stage": "Archive · published demo",
+    "role": "Frontend implementation; further case details to be verified",
+    "tone": "blue",
+    "glyph": "TOP / LINE",
+    "summary": "Earlier web interface preserved as a public build.",
+    "challenge": "Translate an existing page design into browser-ready implementation.",
+    "approach": [
+      "Implemented page structure, responsive layout and visual polish.",
+      "Preserved the finished build in the web archive."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS"
+    ],
+    "repos": [
+      "topline"
+    ],
+    "links": [
+      {
+        "label": "Live build",
+        "url": "https://sachenkolabs.tech/topline/build/",
+        "kind": "live"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "engineering-portfolio",
+    "title": "Engineering Portfolio / v1",
+    "eyebrow": "PUBLIC SITE · ARCHIVE",
+    "category": "web",
+    "featured": false,
+    "year": "2026",
+    "stage": "Public site · archive",
+    "role": "Design / engineering / technical writing",
+    "tone": "lime",
+    "glyph": "v1 / CODE",
+    "summary": "Original dedicated portfolio for Python, backend, automation and technical recovery, preserving six detailed engineering case studies.",
+    "challenge": "Present technical work in a credible, detailed, NDA-conscious way.",
+    "approach": [
+      "Designed a focused technical narrative.",
+      "Built category filters and detailed case drawers.",
+      "Prepared anonymized engineering case studies."
+    ],
+    "outcome": "Archive / demo. The original deliverables and role can be reviewed via the linked materials.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Portfolio UX"
+    ],
+    "repos": [
+      "yurii-engineering-portfolio"
+    ],
+    "links": [
+      {
+        "label": "Open original website",
+        "url": "https://sachenkolabs.tech/yurii-engineering-portfolio/",
+        "kind": "live"
+      },
+      {
+        "label": "Freelancehunt case",
+        "url": "https://freelancehunt.com/showcase/work/engineering-portfolio-sayt-python-inzhenera/2092928.html",
+        "kind": "proof"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "lead-tracking",
+    "title": "JavaScript Lead Capture & Analytics",
+    "eyebrow": "CLIENT WORK · VIDEO WALKTHROUGH",
+    "category": "growth",
+    "featured": false,
+    "year": "2025–26",
+    "stage": "Client work · video walkthrough",
+    "role": "Marketing technology integration and client training",
+    "tone": "lime",
+    "glyph": "GA4 / UTM",
+    "summary": "Lead capture implementation using website scripts, UTM data, GTM, GA4, Meta Pixel and a connected spreadsheet.",
+    "challenge": "Capture and attribute leads across site events and paid traffic more reliably.",
+    "approach": [
+      "Integrated JavaScript snippets into the website.",
+      "Configured UTM handling and analytics events.",
+      "Prepared a video walkthrough explaining operation to the client."
+    ],
+    "outcome": "Client-facing implementation and an instructional walkthrough were created. Quantified performance improvement not independently verified.",
+    "stack": [
+      "JavaScript",
+      "Google Tag Manager",
+      "GA4",
+      "UTM",
+      "Meta Pixel",
+      "Google Sheets"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Video walkthrough",
+        "url": "https://youtu.be/Y6L9gC9kOM4",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Review video for account IDs, personal data and analytics access before embedding it.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "gnb-pitch",
+    "title": "Hughlings / GNB Pitch",
+    "eyebrow": "PERSONAL PROJECT · APPLICATION",
+    "category": "education",
+    "featured": false,
+    "year": "2026",
+    "stage": "Personal project · application",
+    "role": "Founder / presenter / English pitch",
+    "tone": "magenta",
+    "glyph": "GNB / PITCH",
+    "summary": "An English video pitch presenting an idea in the psychiatry space as part of a GNB application.",
+    "challenge": "Explain an interdisciplinary venture concept in a concise English-language format.",
+    "approach": [
+      "Prepared and delivered the English pitch.",
+      "Presented the concept within the Grow Nordic and Baltic (GNB) application.",
+      "Documented the application as a learning experience, without presenting it as an award."
+    ],
+    "outcome": "A completed pitch and application experience; the application was not accepted.",
+    "stack": [
+      "Pitching",
+      "Product Vision",
+      "English",
+      "Psychiatry"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "GNB initiative background",
+        "url": "https://lift99.co/blog/gnb",
+        "kind": "reference"
+      },
+      {
+        "label": "Video walkthrough",
+        "url": "https://youtu.be/9swVuFZNwxM",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "launch-1500",
+    "title": "Educational Launch / $1,500 Breakdown",
+    "eyebrow": "PUBLIC VIDEO LESSON",
+    "category": "education",
+    "featured": false,
+    "year": "2025–26",
+    "stage": "Public video lesson",
+    "role": "Education producer / instructor",
+    "tone": "blue",
+    "glyph": "7 / LESSONS",
+    "summary": "Public Ukrainian-language breakdown of an education product launch, framed around seven practical decisions.",
+    "challenge": "Share lessons from education-product production and launch planning.",
+    "approach": [
+      "Recorded a public case breakdown.",
+      "Structured seven practical takeaways for creators of educational products."
+    ],
+    "outcome": "Public teaching material; the $1,500 refers to the case described by the video title, not a newly audited portfolio revenue claim.",
+    "stack": [
+      "Product Launch",
+      "Online Education",
+      "Strategy",
+      "Video"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Video walkthrough",
+        "url": "https://youtu.be/_l21w1NqPY0",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "launch-fundamentals",
+    "title": "Foundations of an Expert Course Launch",
+    "eyebrow": "PUBLIC VIDEO LESSON",
+    "category": "education",
+    "featured": false,
+    "year": "2025–26",
+    "stage": "Public video lesson",
+    "role": "Instructor / producer",
+    "tone": "violet",
+    "glyph": "EDU / 101",
+    "summary": "An educational video about developing and launching an expert-led online course.",
+    "challenge": "Explain the fundamentals of creating a coherent education product and launch structure.",
+    "approach": [
+      "Recorded a structured public lesson.",
+      "Discussed launch foundations from the perspective of an education producer."
+    ],
+    "outcome": "Full transcript, chapter markers and edited highlights are pending review of the actual video.",
+    "stack": [
+      "Education",
+      "Course Design",
+      "Launch Strategy"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Video walkthrough",
+        "url": "https://youtu.be/L33lOlNPgbs",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Use only materials and deliverables approved for public sharing.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "blog-consultation",
+    "title": "Paid Blog Strategy Consultation",
+    "eyebrow": "CLIENT CONSULTATION · VIDEO",
+    "category": "education",
+    "featured": false,
+    "year": "2025–26",
+    "stage": "Client consultation · video",
+    "role": "Consultant / educator",
+    "tone": "magenta",
+    "glyph": "1:1 / PLAN",
+    "summary": "A paid strategic consultation about blog promotion for a business assistant.",
+    "challenge": "Help a client frame positioning and content strategy into actionable priorities.",
+    "approach": [
+      "Conducted a paid one-to-one consultation.",
+      "Recorded the session for possible future review and anonymized knowledge extraction."
+    ],
+    "outcome": "Consultation delivered. Its transcript, chapter boundaries and concrete recommendations still require review.",
+    "stack": [
+      "Content Strategy",
+      "Consulting",
+      "Marketing"
+    ],
+    "repos": [],
+    "links": [
+      {
+        "label": "Video walkthrough",
+        "url": "https://www.youtube.com/watch?v=YP18-jLSr_M",
+        "kind": "video"
+      }
+    ],
+    "privacy": "Do not republish private portions, names, client concerns or identifying statements without consent.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "creative-direction",
+    "title": "Creative Briefs / Campaign Direction",
+    "eyebrow": "CREATIVE DIRECTION · SOURCE ARCHIVE",
+    "category": "creative",
+    "featured": false,
+    "year": "2022–26",
+    "stage": "Creative direction · source archive",
+    "role": "Creative direction / briefs / production coordination",
+    "tone": "magenta",
+    "glyph": "ART / BRIEF",
+    "summary": "Art direction and production briefs prepared for designers across education, services and paid-media campaigns.",
+    "challenge": "Turn marketing messages into actionable visual production requirements.",
+    "approach": [
+      "Wrote ad-creative briefs with headlines, hierarchy, formats, references and CTA rules.",
+      "Specified feed and stories variants and visual production constraints.",
+      "Coordinated design execution: distinguish briefs and direction from designers’ original artwork."
+    ],
+    "outcome": "Multiple source documents were located in Google Drive; publication and designer credit must be reviewed.",
+    "stack": [
+      "Creative Briefs",
+      "Art Direction",
+      "Ad Production",
+      "Campaign Strategy"
+    ],
+    "repos": [],
+    "links": [],
+    "privacy": "Drive files are not public website assets. Publish only approved exports and share links after access review.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  },
+  {
+    "id": "drive-creatives",
+    "title": "Advertising Creative / Selected Gallery",
+    "eyebrow": "ARCHIVE · ASSETS IN DRIVE",
+    "category": "creative",
+    "featured": false,
+    "year": "2022–26",
+    "stage": "Archive · assets in Drive",
+    "role": "Producer / creative briefs / curation; execution roles vary",
+    "tone": "blue",
+    "glyph": "ADS / LIBRARY",
+    "summary": "Curated archive of static, short-form and video advertising assets stored across Google Drive project folders.",
+    "challenge": "Make dispersed media work easy to browse with the correct role and project context.",
+    "approach": [
+      "Organize media by campaign, format and year.",
+      "Map each delivered asset to its brief, designer, and final publication state.",
+      "Prepare optimized thumbnails and preview media after permissions review."
+    ],
+    "outcome": "Drive folders were found, including Creatives, Баннера, ТЗ Баннера and Креативы генераторы. Public exports still pending.",
+    "stack": [
+      "Campaign Creative",
+      "Video",
+      "Static Ads",
+      "Creative Direction"
+    ],
+    "repos": [],
+    "links": [],
+    "privacy": "Do not imply every asset was personally designed. Credit collaborators and preserve original-source access controls.",
+    "gallery": [
+      "Project overview",
+      "Implementation details",
+      "Selected deliverables"
+    ]
+  }
+]

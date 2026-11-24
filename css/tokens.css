@@ -1,0 +1,2 @@
+/* Global design tokens — colors deliberately retained from V3. */
+:root { color-scheme:dark; --ink:#f4f3f7;--mute:#a4a1ae;--sub:#73717e;--bg:#08080c;--panel:#111015;--panel2:#17151c;--line:#2a2732;--acid:#d9ff29;--pink:#fe3cc6;--violet:#8759f2;--blue:#6aa7ff;--font:'Space Grotesk',Arial,sans-serif;--display:'Syne','Space Grotesk',Arial,sans-serif;--mono:'DM Mono',monospace;--radius:18px;--content-width:1512px; --gutter:clamp(16px,3.2vw,44px); }
