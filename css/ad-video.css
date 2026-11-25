@@ -1,0 +1,23 @@
+/* Vertical (9:16) ad-creative players: three side by side from 768 px, a horizontal swipe row below.
+   Loaded by case pages that have videos and by the main page (case modal). Font stacks come from each
+   element's language (detail.css / tokens.css plus the cyrillic files), so English blocks keep DM Mono. */
+.ad-videos {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.ad-video {margin:0;min-width:0;display:flex;flex-direction:column;gap:14px}
+.ad-video-frame {aspect-ratio:9/16;overflow:hidden;border:1px solid #332f35;border-radius:13px;background:#000}
+.ad-video video {display:block;width:100%;height:100%;object-fit:contain;background:#000}
+.ad-video figcaption {display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.ad-video-title {font:500 13px/1.45 var(--mono);color:#d8d2dc;letter-spacing:.02em;text-wrap:balance}
+.ad-video-yt {display:inline-block;max-width:100%;box-sizing:border-box;min-height:44px;padding:12px 14px;text-wrap:balance;border:1px solid #6f6572;border-radius:9px;background:#ffffff0a;color:#f3f1fa;font:500 12px/1.4 var(--mono);letter-spacing:.03em;text-decoration:none;
+  transition:background-color .2s ease,color .2s ease,border-color .2s ease,transform .2s ease}
+.ad-video-yt:hover {background:#d9ff29;border-color:#d9ff29;color:#08090a;transform:translateY(-2px)}
+.ad-video-yt:focus-visible {outline:2px solid #d9ff29;outline-offset:3px;background:#ffffff1f;border-color:#d9ff29}
+.ad-video-yt:active {transform:translateY(0) scale(.98)}
+@media (prefers-reduced-motion: reduce) {.ad-video-yt:hover,.ad-video-yt:active {transform:none}}
+/* Below 768 px: a swipe row, each player about three quarters of the screen wide so the next one peeks in. */
+@media (max-width:767px) {
+  .ad-videos {display:flex;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:5px;gap:12px;margin:-5px -5px 0;padding:5px 5px 12px;scrollbar-width:thin}
+  .ad-video {flex:0 0 min(80%,320px);scroll-snap-align:start}
+}
+/* In the case modal */
+.case-videos {margin:8px 0 40px}
+.case-videos .case-smalllabel {margin-bottom:16px}

@@ -10,6 +10,6 @@ for(const file of fs.readdirSync(path.join(d,'en','work'))){
  if(!html.includes(`work/${file}/`))error.push(`${file}: wrong canonical path`);
 }
 if(!sitemap.includes('<urlset')||!fs.existsSync(path.join(d,'robots.txt')))error.push('Missing sitemap/robots');
-if(checked!==52)error.push('Project pages != 52');
+if(checked!==report.projects)error.push(`Project pages ${checked} != ${report.projects}`);
 if(error.length){console.error(error.slice(0,25).join('\n'));process.exit(1)}
 console.log(`SEO structure passed: ${checked} English static case pages, robots, sitemap, metadata and JSON-LD; ${report.sitemapUrls} submitted URLs. This does not assert indexing or Lighthouse performance.`);

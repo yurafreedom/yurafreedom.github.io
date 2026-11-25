@@ -2053,6 +2053,52 @@
     ]
   },
   {
+    "id": "the-burger",
+    "title": "The Burger / Food Delivery Ad Creatives",
+    "eyebrow": "VIDEO ADS · 9:16",
+    "category": "creative",
+    "featured": false,
+    "year": "2021",
+    "stage": "Video ad creatives",
+    "tone": "magenta",
+    "glyph": "THE BURGER",
+    "summary": "Three vertical (9:16) video ad creatives for The Burger, a food delivery service in Kyiv.",
+    "approach": [],
+    "stack": [],
+    "repos": [],
+    "links": [],
+    "gallery": [],
+    "cover": {
+      "src": "assets/the-burger/the-burger-cover.webp",
+      "srcset": "assets/the-burger/the-burger-cover-810.webp 810w, assets/the-burger/the-burger-cover.webp 1620w",
+      "width": 1620,
+      "height": 960
+    },
+    "videos": [
+      {
+        "title": "Kyiv | The Burger | Ads creative 1",
+        "src": "assets/the-burger/the-burger-creative-1.mp4",
+        "poster": "assets/the-burger/the-burger-creative-1-poster-540.webp",
+        "posterFull": "assets/the-burger/the-burger-creative-1-poster.webp",
+        "youtube": "https://youtu.be/YhBf0bZzWuA"
+      },
+      {
+        "title": "Kyiv | The Burger | Ads creative 2",
+        "src": "assets/the-burger/the-burger-creative-2.mp4",
+        "poster": "assets/the-burger/the-burger-creative-2-poster-540.webp",
+        "posterFull": "assets/the-burger/the-burger-creative-2-poster.webp",
+        "youtube": "https://youtu.be/JR-VFOMpPBY"
+      },
+      {
+        "title": "Kyiv | The Burger | Ads creative 3",
+        "src": "assets/the-burger/the-burger-creative-3.mp4",
+        "poster": "assets/the-burger/the-burger-creative-3-poster-540.webp",
+        "posterFull": "assets/the-burger/the-burger-creative-3-poster.webp",
+        "youtube": "https://youtu.be/zI8lMiHvSMQ"
+      }
+    ]
+  },
+  {
     "id": "drive-creatives",
     "title": "Advertising Creative / Selected Gallery",
     "eyebrow": "ARCHIVE · ASSETS IN DRIVE",
@@ -2078,7 +2124,13 @@
       "Creative Direction"
     ],
     "repos": [],
-    "links": [],
+    "links": [
+      {
+        "label": "The Burger — video ad creatives",
+        "url": "work/the-burger/",
+        "kind": "case"
+      }
+    ],
     "privacy": "Do not imply every asset was personally designed. Credit collaborators and preserve original-source access controls.",
     "gallery": [
       "Project overview",
